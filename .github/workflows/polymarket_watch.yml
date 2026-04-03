@@ -8,7 +8,7 @@ on:
   # 允许在 GitHub Actions 页面手动随时触发
   workflow_dispatch:
 
-# 🚨 极其重要：赋予 Action 机器人写入权限，否则无法保存市场历史涨跌数据
+# 🚨 极其重要：赋予写入权限
 permissions:
   contents: write
 
@@ -28,28 +28,27 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          # 这个脚本极其轻量，只需要 requests 库即可
-          pip install requests
+          # 🚨 修复点：在这里增加 xai-sdk 的安装
+          pip install requests xai-sdk
           
       - name: Run Polymarket Watch Script
         env:
-          # 🚨 从你的 Secrets 中读取飞书机器人的链接
+          # 必填：用于推送卡片
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           
-          # (可选) 如果你配置了飞书云文档长文推送
+          # 必填：用于 Grok 深度分析
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          
+          # 可选：用于生成云文档
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
         run: |
-          # 确保你仓库里的脚本名字叫 polymarket_watch.py
           python polymarket_watch.py
 
-      # 🚨 核心底盘：把跑完生成的历史数据保存回 GitHub 仓库
       - name: Commit and Push Polymarket History
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          # 把脚本生成的 JSON 历史账本存起来，用于计算明天的涨跌幅
           git add market_history.json || true
           git commit -m "🤖 Auto-save Polymarket history" || echo "No changes to commit"
           git push
