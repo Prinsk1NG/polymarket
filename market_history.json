@@ -1,0 +1,16 @@
+{
+  "markets": {
+    "will-openai-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "p": 0.0205,
+      "t": "2026-04-04 01:56"
+    },
+    "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-april-30": {
+      "p": 0.9725,
+      "t": "2026-04-04 01:56"
+    },
+    "will-anthropic-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "p": 0.935,
+      "t": "2026-04-04 01:56"
+    }
+  }
+}
