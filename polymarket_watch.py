@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Polymarket Watch — v3.0 投资决策版
-1. 筛选 Top 5 AI + Top 5 中国市场 (基于交易量)
+Polymarket Watch — v3.1 投资决策完全体
+1. 筛选 Top 5 AI + Top 5 中国市场 (基于 24h 交易量)
 2. 调用 Grok-Reasoning 进行“共识偏差”与“投资含义”深度推演
-3. 飞书云文档 (Docx) + 飞书卡片 (四层结构) 全自动推送
+3. 自动创建结构化飞书云文档 (非源码模式)
+4. 推送四层结构高级飞书卡片
 """
 
 import os
@@ -19,22 +20,22 @@ import requests
 from xai_sdk import Client
 from xai_sdk.chat import user, system
 
-# ─── 配置 ──────────────────────────────────────────────────────
+# ─── 基础配置 ──────────────────────────────────────────────────
 GAMMA_API = "https://gamma-api.polymarket.com"
 CLOB_API = "https://clob.polymarket.com"
 HISTORY_FILE = Path(__file__).parent / "market_history.json"
 BJT = timezone(timedelta(hours=8))
 
-# 环境变量
-FEISHU_WEBHOOK_URL = os.getenv("FEISHU_WEBHOOK_URL", "https://open.feishu.cn/open-apis/bot/v2/hook/d867fa04-b5b9-41d3-8056-f2e0e1813379")
+# 环境变量 (由 GitHub Secrets 传入)
+FEISHU_WEBHOOK_URL = os.getenv("FEISHU_WEBHOOK_URL", "")
 FEISHU_APP_ID = os.getenv("FEISHU_APP_ID", "")
 FEISHU_APP_SECRET = os.getenv("FEISHU_APP_SECRET", "")
 XAI_API_KEY = os.getenv("XAI_API_KEY", "")
 
 # ─── 关键词与过滤规则 (严格遵守敏感话题过滤) ────────────────────────
 AI_KEYWORDS = ["AGI", "GPT", "Claude", "Gemini", "OpenAI", "Anthropic", "DeepSeek", "NVIDIA", "AI chip", "AI model", "LLM", "GPT-5", "Sora", "xAI"]
-CHINA_KEYWORDS = ["China GDP", "trade war", "tariff", "semiconductor", "chip ban", "Huawei", "BYD", "PBOC", "Chinese stocks", "China economy", "TikTok ban"]
-NOISE_KEYWORDS = ["NBA", "Finals", "Win the game", "Counter-Strike", "NHL", "FIFA", "Esports", "Betting", "Weather", "Taipei temp"]
+CHINA_KEYWORDS = ["China GDP", "trade war", "tariff", "trade deal", "semiconductor", "chip ban", "Huawei", "BYD", "PBOC", "Chinese stocks", "China economy", "TikTok ban"]
+NOISE_KEYWORDS = ["NBA", "Finals", "Win the game", "Counter-Strike", "NHL", "FIFA", "Esports", "Betting", "Weather", "Taipei temp", "Basketball"]
 BLOCKED_PATTERNS = [r"taiwan.*invasi", r"invad.*taiwan", r"xi jinping.*removed", r"china.*coup", r"regime.*change.*china", r"CCP.*collapse"]
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -44,31 +45,37 @@ log = logging.getLogger("polymarket-watch")
 # 1. 核心抓取与清洗逻辑
 # ════════════════════════════════════════════════════════════════
 
-def fetch_and_filter_markets():
+def fetch_top_markets():
     markets = []
-    for page in range(5): # 抓取前500个高交易量市场
+    for page in range(5): 
         try:
-            batch = requests.get(f"{GAMMA_API}/markets", params={
+            resp = requests.get(f"{GAMMA_API}/markets", params={
                 "limit": 100, "offset": page * 100, "active": "true", "closed": "false",
                 "order": "volume24hr", "ascending": "false"
-            }).json()
+            }, timeout=30)
+            batch = resp.json()
             if not batch: break
             markets.extend(batch)
-        except: break
+        except Exception as e:
+            log.error(f"抓取数据失败: {e}")
+            break
     
     ai_pool, china_pool = [], []
     for m in markets:
         q = (m.get('question','') + m.get('description','')).lower()
+        # 敏感过滤
         if any(re.search(p, q, re.I) for p in BLOCKED_PATTERNS): continue
+        # 噪音过滤
         if any(k.lower() in q for k in NOISE_KEYWORDS): continue
         
-        # 精准匹配
+        # 匹配 AI
         if any(re.search(rf"\b{re.escape(kw.lower())}\b", q) for kw in AI_KEYWORDS):
             ai_pool.append(m)
+        # 匹配 中国
         elif any(re.search(rf"\b{re.escape(kw.lower())}\b", q) for kw in CHINA_KEYWORDS):
             china_pool.append(m)
             
-    # 选出 Top 5
+    # 按交易量选出前 5 个
     ai_top = sorted(ai_pool, key=lambda x: float(x.get('volume',0)), reverse=True)[:5]
     china_top = sorted(china_pool, key=lambda x: float(x.get('volume',0)), reverse=True)[:5]
     return ai_top, china_top
@@ -76,56 +83,78 @@ def fetch_and_filter_markets():
 def get_real_prices(markets):
     for m in markets:
         try:
-            prices = json.loads(m.get("outcomePrices", "[]"))
-            m["_yes_price"] = float(prices[0]) if prices else None
+            prices_str = m.get("outcomePrices", "")
+            if isinstance(prices_str, str) and prices_str:
+                m["_yes_price"] = float(json.loads(prices_str)[0])
+            elif isinstance(prices_str, list) and prices_str:
+                m["_yes_price"] = float(prices_str[0])
+            else:
+                m["_yes_price"] = None
         except: m["_yes_price"] = None
     return markets
 
 # ════════════════════════════════════════════════════════════════
-# 2. 状态管理：计算涨跌幅
+# 2. 状态管理：对比历史并计算变动 (含兼容性修复)
 # ════════════════════════════════════════════════════════════════
 
 def compare_history(markets, now_str):
     if not HISTORY_FILE.exists():
         HISTORY_FILE.write_text(json.dumps({"markets": {}}))
-    history = json.loads(HISTORY_FILE.read_text("utf-8"))
+    
+    try:
+        history = json.loads(HISTORY_FILE.read_text("utf-8"))
+    except:
+        history = {"markets": {}}
     
     for m in markets:
+        # 生成唯一 ID
         slug = re.sub(r'[^a-z0-9]+', '-', m.get('question','').lower()).strip('-')[:80]
         price = m.get("_yes_price")
         if price is None: continue
         
-        prev = history["markets"].get(slug)
-        m["_change"] = round(price - prev["p"], 4) if prev else 0.0
-        m["_is_new"] = False if prev else True
+        prev = history.get("markets", {}).get(slug)
         
-        history["markets"][slug] = {"p": price, "t": now_str}
+        # 兼容性读取：优先读 'p'，不满足则读旧版 'current_probability'
+        if prev:
+            prev_p = prev.get("p") if "p" in prev else prev.get("current_probability")
+            if prev_p is not None:
+                m["_change"] = round(price - float(prev_p), 4)
+                m["_is_new"] = False
+            else:
+                m["_change"] = 0.0
+                m["_is_new"] = True
+        else:
+            m["_change"] = 0.0
+            m["_is_new"] = True
+        
+        # 更新状态
+        history.setdefault("markets", {})[slug] = {"p": price, "t": now_str}
         
     HISTORY_FILE.write_text(json.dumps(history, ensure_ascii=False, indent=2), "utf-8")
     return markets
 
 # ════════════════════════════════════════════════════════════════
-# 3. Grok-Reasoning：投资含义推演引擎
+# 3. Grok-Reasoning 分析引擎
 # ════════════════════════════════════════════════════════════════
 
-def analyze_investment_strategy(ai_list, china_list):
-    if not XAI_API_KEY: return "LLM API Key missing"
+def analyze_markets_with_llm(ai_list, china_list):
+    if not XAI_API_KEY: return "分析模块未激活：未检测到 XAI_API_KEY。"
     
-    data_ctx = "【AI 监测样本】\n"
+    data_ctx = "【全球 AI 进展】\n"
     for m in ai_list:
-        data_ctx += f"- {m.get('question')}: {round(m.get('_yes_price',0)*100,1)}% (变动: {round(m.get('_change',0)*100,2)}pp)\n"
-    data_ctx += "\n【中国宏观监测样本】\n"
+        data_ctx += f"- {m.get('question')}: 当前赔率 {round(m.get('_yes_price',0)*100, 1)}% (变动: {round(m.get('_change',0)*100, 2)}pp)\n"
+    data_ctx += "\n【中国宏观与科技】\n"
     for m in china_list:
-        data_ctx += f"- {m.get('question')}: {round(m.get('_yes_price',0)*100,1)}% (变动: {round(m.get('_change',0)*100,2)}pp)\n"
+        data_ctx += f"- {m.get('question')}: 当前赔率 {round(m.get('_yes_price',0)*100, 1)}% (变动: {round(m.get('_change',0)*100, 2)}pp)\n"
 
     prompt = f"""
-你是一个 Polymarket 预测市场监测助手，服务于中国的一级市场（VC/PE）AI 投资人。
-请基于以下最新的预测市场数据，生成犀利的博弈分析。
+你是一个 Polymarket 预测市场监测助手，服务对象是中国的一级市场（VC/PE）AI 投资人。
+请基于以下数据生成中文简报。要求逻辑犀利，拒绝废话。
 
-任务要求：
-1. **今日行动提示**：总结 1-2 条信号 -> 含义 -> 建议关注点。
-2. **共识偏差预警**：识别 >90% 或 <10% 的“危险共识”，给出“共识检验”：指出当前逻辑链条中最大的反驳理由。
-3. **政策-投资联动**：针对“AI基础模型”、“应用层”、“芯片/Infra”、“出海”这几个赛道，选择最相关的赔率变动进行含义推演。
+## 核心任务
+1. **今日行动提示**：总结 1-2 条最关键信号。格式：信号 -> 含义 -> 建议关注点。
+2. **共识偏差预警**：识别赔率 >90% 或 <10% 的市场，给出“共识检验”：指出反驳该共识的一个核心逻辑。
+3. **政策-投资联动**：针对“基础模型”、“应用层”、“芯片Infra”、“出海”等赛道。
    格式：如果你在投[具体赛道]，这个信号意味着[具体含义]。
 
 最新数据：
@@ -134,99 +163,130 @@ def analyze_investment_strategy(ai_list, china_list):
     try:
         client = Client(api_key=XAI_API_KEY)
         chat = client.chat.create(model="grok-4.20-0309-reasoning")
-        chat.append(system("你是一位见解极其深刻、辞藻犀利、拒绝陈词滥调的资深 VC 分析师。使用中文输出。"))
+        chat.append(system("你是一位见解毒辣的资深一级市场策略师，只说有价值的干货。"))
         chat.append(user(prompt))
         full_res = chat.sample().content.strip()
-        # 切除推理过程
+        # 清除推理标签
         return re.sub(r'<think>.*?</think>', '', full_res, flags=re.DOTALL).strip()
     except Exception as e:
-        return f"Grok 分析失败: {e}"
+        return f"分析生成失败: {e}"
 
 # ════════════════════════════════════════════════════════════════
-# 4. 飞书联动：文档与卡片 (四层结构)
+# 4. 飞书联动 (文档 + 卡片)
 # ════════════════════════════════════════════════════════════════
 
-def create_feishu_doc(title, analysis, ai_list, china_list):
-    """创建精排版的飞书云文档"""
-    # 逻辑同 v2.1，将 analysis 和 market 详情转换为 blocks
-    # 为节省演示篇幅，代码结构已精简化处理
-    pass
+def get_tenant_token():
+    if not (FEISHU_APP_ID and FEISHU_APP_SECRET): return None
+    try:
+        r = requests.post("https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal", 
+                          json={"app_id": FEISHU_APP_ID, "app_secret": FEISHU_APP_SECRET}, timeout=10)
+        return r.json().get("tenant_access_token")
+    except: return None
 
-def push_feishu_webhook(ai_list, china_list, analysis, doc_url, now):
-    """严格执行四层结构的飞书卡片推送"""
-    date_tag = now.strftime('%m-%d %H:00')
+def push_feishu_doc(title, analysis, ai_list, china_list):
+    token = get_tenant_token()
+    if not token: return ""
+    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=utf-8"}
     
-    # 提取行动提示 (假设 Grok 输出的第一部分是行动提示)
-    # 这里通过正则或拆分字符串提取 Grok 的各部分内容
+    try:
+        # 1. 创建文档
+        r = requests.post("https://open.feishu.cn/open-apis/docx/v1/documents", 
+                          headers=headers, json={"title": title}, timeout=20)
+        doc_id = r.json().get("data", {}).get("document", {}).get("document_id")
+        if not doc_id: return ""
+
+        # 2. 构建结构化 Block 内容
+        blocks = [
+            {"block_type": 1, "heading1": {"elements": [{"text_run": {"content": "🧠 深度博弈分析 (Grok Reasoning)"}}]}},
+            {"block_type": 2, "text": {"elements": [{"text_run": {"content": analysis}}]}},
+            {"block_type": 12, "divider": {}},
+            {"block_type": 3, "heading2": {"elements": [{"text_run": {"content": "📊 详细赔率清单"}}]}}
+        ]
+        for m in ai_list + china_list:
+            blocks.append({
+                "block_type": 2,
+                "text": {"elements": [{"text_run": {"content": f"• {m.get('question')}: {round(m.get('_yes_price',0)*100,1)}% ({round(m.get('_change',0)*100,2)}pp)"}}], "style": {"list": {"type": "bullet"}}}
+            })
+
+        requests.post(f"https://open.feishu.cn/open-apis/docx/v1/documents/{doc_id}/blocks/{doc_id}/children",
+                      headers=headers, json={"children": blocks}, timeout=20)
+        
+        # 3. 权限：链接阅读
+        requests.patch(f"https://open.feishu.cn/open-apis/drive/v1/permissions/{doc_id}/public?type=docx",
+                       headers=headers, json={"external_access_entity": "open", "security_entity": "anyone_can_view", "link_share_entity": "anyone_readable"}, timeout=10)
+        
+        return f"https://hillhousecap.feishu.cn/docx/{doc_id}"
+    except: return ""
+
+def push_feishu_card(ai_list, china_list, analysis, doc_url, now):
+    if not FEISHU_WEBHOOK_URL: return
+    
     sections = analysis.split("\n\n")
-    action_hints = sections[0] if len(sections) > 0 else "无显著信号"
-    consensus_warn = sections[1] if len(sections) > 1 else "共识稳固"
-    track_linkage = sections[2] if len(sections) > 2 else "联动不明显"
-
-    def format_val(v):
-        color = "red" if v > 0.02 else ("green" if v < -0.02 else "grey")
-        return f"<font color='{color}'>{'+' if v>0 else ''}{round(v*100,1)}pp</font>"
-
-    elements = [
-        {"tag": "div", "text": {"tag": "lark_md", "content": f"**🎯 今日行动提示**\n{action_hints}"}},
-        {"tag": "hr"},
-        {"tag": "div", "text": {"tag": "lark_md", "content": f"**⚠️ 共识偏差预警**\n{consensus_warn}"}},
-        {"tag": "hr"},
-        {"tag": "div", "text": {"tag": "lark_md", "content": f"**🔗 赔率→赛道联动**\n{track_linkage}"}},
-        {"tag": "hr"}
-    ]
+    action_part = sections[0][:500] if sections else "暂无行动提示"
     
+    elements = [
+        {"tag": "div", "text": {"tag": "lark_md", "content": f"**🎯 今日行动提示**\n{action_part}"}},
+        {"tag": "hr"},
+    ]
+
+    # 添加 AI 精选
+    ai_md = "**▌ 🤖 AI 赛道异动**\n"
+    for m in sorted(ai_list, key=lambda x: abs(x.get("_change", 0)), reverse=True)[:3]:
+        pp = m["_change"] * 100
+        color = "red" if pp > 0.5 else ("green" if pp < -0.5 else "grey")
+        ai_md += f"• {m.get('question')[:40]}... **{round(m.get('_yes_price',0)*100, 1)}%** (<font color='{color}'>{'+' if pp>0 else ''}{pp:.1f}pp</font>)\n"
+    elements.append({"tag": "markdown", "content": ai_md})
+
     if doc_url:
+        elements.append({"tag": "hr"})
         elements.append({
             "tag": "action",
-            "actions": [{"tag": "button", "text": {"tag": "plain_text", "content": "📄 查阅完整深度简报"}, "url": doc_url, "type": "primary"}]
+            "actions": [{
+                "tag": "button", "text": {"tag": "plain_text", "content": "📄 查阅完整投资决策报告"},
+                "url": doc_url, "type": "primary"
+            }]
         })
-    else:
-        elements.append({"tag": "note", "elements": [{"tag": "plain_text", "content": "注：云文档推送失败，请查看 GitHub 本地记录"}]})
 
     payload = {
         "msg_type": "interactive",
         "card": {
             "config": {"wide_screen_mode": True},
-            "header": {
-                "title": {"tag": "plain_text", "content": "⚡ Polymarket Watch 资金风向标"},
-                "subtitle": {"tag": "plain_text", "content": f"{date_tag} · 决策参考版"},
-                "template": "indigo"
-            },
-            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "数据来源：Polymarket API + Grok-Reasoning"}]}]
+            "header": {"title": {"tag": "plain_text", "content": f"Polymarket 资金风向标 | {now.strftime('%m-%d')}"}, "template": "indigo"},
+            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "Insights by Grok-Reasoning"}]}]
         }
     }
-    requests.post(FEISHU_WEBHOOK_URL, json=payload)
+    requests.post(FEISHU_WEBHOOK_URL, json=payload, timeout=15)
 
 # ════════════════════════════════════════════════════════════════
-# 5. 主流程
+# 5. 主程序
 # ════════════════════════════════════════════════════════════════
 
 def main():
     now = datetime.now(BJT)
-    now_str = now.strftime("%Y-%m-%d %H:%M")
-    log.info(f"=== Polymarket Investment Briefing 开始生成 ===")
+    now_str = now.strftime("%Y-%m-%dT%H:%M")
+    log.info(f"=== Polymarket Watch 开始工作 === {now_str}")
 
-    # 1. 获取并筛选精英样本
-    ai_top, china_top = fetch_and_filter_markets()
+    # 1. 抓取与筛选
+    ai_top, china_top = fetch_top_markets()
     ai_top = get_real_prices(ai_top)
     china_top = get_real_prices(china_top)
     
-    # 2. 对比历史变动
-    all_elite = ai_top + china_top
-    compare_history(all_elite, now_str)
+    # 2. 历史对冲 (KeyError 修复在此函数内)
+    compare_history(ai_top + china_top, now_str)
 
-    # 3. 调用 Grok 进行投资逻辑分析
-    log.info("正在唤醒 Grok 分析师进行推演...")
-    analysis = analyze_investment_strategy(ai_top, china_top)
+    # 3. LLM 深度分析
+    log.info("正在调用 Grok 分析师进行投研...")
+    analysis = analyze_markets_with_llm(ai_top, china_top)
     
-    # 4. 创建飞书云文档 (此处需 FEISHU_APP_ID 配置)
-    # 暂简写为获取 doc_url 逻辑
-    doc_url = "" # 可复用 v2.1 里的 push_feishu_doc
-    
-    # 5. 推送飞书卡片
-    push_feishu_webhook(ai_top, china_top, analysis, doc_url, now)
-    log.info("=== 简报已送达飞书 ===")
+    # 4. 生成云文档
+    doc_url = ""
+    if FEISHU_APP_ID:
+        doc_url = push_feishu_doc(f"Polymarket 深度研报 | {now.strftime('%m-%d %H:%M')}", analysis, ai_top, china_top)
+        log.info(f"云文档已就绪: {doc_url}")
+
+    # 5. 发送卡片
+    push_feishu_card(ai_top, china_top, analysis, doc_url, now)
+    log.info("=== 任务顺利完成 ===")
 
 if __name__ == "__main__":
     main()
