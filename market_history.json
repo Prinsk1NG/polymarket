@@ -1,0 +1,313 @@
+{
+  "last_updated": "2026-04-04T01:24",
+  "markets": {
+    "magic-vs-mavericks": {
+      "name": "Magic vs. Mavericks",
+      "url": "https://polymarket.com/event/nba-orl-dal-2026-04-03",
+      "category": "ai",
+      "current_probability": 0.695,
+      "previous_probability": 0.695,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.695
+        }
+      ]
+    },
+    "will-the-orlando-magic-win-the-2026-nba-finals": {
+      "name": "Will the Orlando Magic win the 2026 NBA Finals?",
+      "url": "https://polymarket.com/event/will-the-orlando-magic-win-the-2026-nba-finals",
+      "category": "ai",
+      "current_probability": 0.0045,
+      "previous_probability": 0.0045,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0045
+        }
+      ]
+    },
+    "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-april-30": {
+      "name": "Will NVIDIA be the largest company in the world by market cap on April 30?",
+      "url": "https://polymarket.com/event/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-april-30-161",
+      "category": "ai",
+      "current_probability": 0.9725,
+      "previous_probability": 0.9725,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.9725
+        }
+      ]
+    },
+    "will-anthropic-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Anthropic have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-anthropic-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.935,
+      "previous_probability": 0.935,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.935
+        }
+      ]
+    },
+    "will-openai-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will OpenAI have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-openai-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0205,
+      "previous_probability": 0.0205,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0205
+        }
+      ]
+    },
+    "will-amazon-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Amazon have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-amazon-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0015,
+      "previous_probability": 0.0015,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0015
+        }
+      ]
+    },
+    "will-deepseek-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will DeepSeek have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-deepseek-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0065,
+      "previous_probability": 0.0065,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0065
+        }
+      ]
+    },
+    "will-mistral-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Mistral have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-mistral-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0015,
+      "previous_probability": 0.0015,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0015
+        }
+      ]
+    },
+    "will-xai-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will xAI have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-xai-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0035,
+      "previous_probability": 0.0035,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0035
+        }
+      ]
+    },
+    "will-google-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Google have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-google-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.027,
+      "previous_probability": 0.027,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.027
+        }
+      ]
+    },
+    "will-bytedance-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will ByteDance have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-bytedance-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0015,
+      "previous_probability": 0.0015,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0015
+        }
+      ]
+    },
+    "counter-strike-magic-vs-k27-bo5-pgl-astana-european-closed-qualifier-playoffs": {
+      "name": "Counter-Strike: magic vs K27 (BO5) - PGL Astana: European Closed Qualifier Playoffs",
+      "url": "https://polymarket.com/event/cs2-mgc-k271-2026-04-03",
+      "category": "ai",
+      "current_probability": 0.12,
+      "previous_probability": 0.12,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.12
+        }
+      ]
+    },
+    "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31": {
+      "name": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+      "url": "https://polymarket.com/event/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-244",
+      "category": "ai",
+      "current_probability": 0.675,
+      "previous_probability": 0.675,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.675
+        }
+      ]
+    },
+    "will-moonshot-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Moonshot have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-moonshot-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0025,
+      "previous_probability": 0.0025,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0025
+        }
+      ]
+    },
+    "will-meituan-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Meituan have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-meituan-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0015,
+      "previous_probability": 0.0015,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0015
+        }
+      ]
+    },
+    "will-baidu-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Baidu have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-baidu-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0015,
+      "previous_probability": 0.0015,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0015
+        }
+      ]
+    },
+    "will-claude-5-be-released-by-april-30-2026": {
+      "name": "Will Claude 5 be released by April 30, 2026?",
+      "url": "https://polymarket.com/event/will-claude-5-be-released-by-april-30-2026",
+      "category": "ai",
+      "current_probability": 0.15,
+      "previous_probability": 0.15,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.15
+        }
+      ]
+    },
+    "gemini-3-5-released-by-april-30": {
+      "name": "Gemini 3.5 released by April 30?",
+      "url": "https://polymarket.com/event/gemini-3pt5-released-by-april-31",
+      "category": "ai",
+      "current_probability": 0.058,
+      "previous_probability": 0.058,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.058
+        }
+      ]
+    },
+    "will-z-ai-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Z.ai have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-zai-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0015,
+      "previous_probability": 0.0015,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0015
+        }
+      ]
+    },
+    "will-alibaba-have-the-best-ai-model-at-the-end-of-april-2026": {
+      "name": "Will Alibaba have the best AI model at the end of April 2026?",
+      "url": "https://polymarket.com/event/will-alibaba-have-the-best-ai-model-at-the-end-of-april-2026",
+      "category": "ai",
+      "current_probability": 0.0015,
+      "previous_probability": 0.0015,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.0015
+        }
+      ]
+    },
+    "will-chatgpt-be-1-free-app-in-the-us-apple-app-store-on-april-3": {
+      "name": "Will ChatGPT be #1 Free App in the US Apple App Store on April 3?",
+      "url": "https://polymarket.com/event/will-chatgpt-be-1-free-app-in-the-us-apple-app-store-on-april-3",
+      "category": "ai",
+      "current_probability": 0.9995,
+      "previous_probability": 0.9995,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.9995
+        }
+      ]
+    },
+    "will-the-highest-temperature-in-taipei-be-25-c-on-april-3": {
+      "name": "Will the highest temperature in Taipei be 25°C on April 3?",
+      "url": "https://polymarket.com/event/highest-temperature-in-taipei-on-april-3-2026-25c",
+      "category": "china",
+      "current_probability": 0.9995,
+      "previous_probability": 0.9995,
+      "first_seen": "2026-04-04",
+      "history": [
+        {
+          "date": "2026-04-04T01:24",
+          "probability": 0.9995
+        }
+      ]
+    }
+  }
+}
