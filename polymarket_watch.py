@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-Polymarket Watch — 云端部署版 (高定排版版)
-通过 Polymarket 官方 Gamma API + CLOB API 获取预测市场数据，
-生成面向中国一级市场 AI 投资人的中文简报，推送至飞书 Webhook。
+Polymarket Watch — v2.0 终极版 (带动态涨跌、高定卡片与云文档联动)
+通过 Polymarket 官方 API 获取预测数据，生成面向 AI 投资人的深度简报。
 """
 
 import os
@@ -20,12 +20,14 @@ import requests
 GAMMA_API = "https://gamma-api.polymarket.com"
 CLOB_API = "https://clob.polymarket.com"
 HISTORY_FILE = Path(__file__).parent / "market_history.json"
-OUTPUT_DIR = Path(__file__).parent / "briefings"
 BJT = timezone(timedelta(hours=8))
 
+# 环境变量读取
 FEISHU_WEBHOOK_URL = os.getenv("FEISHU_WEBHOOK_URL", "")
+FEISHU_APP_ID = os.getenv("FEISHU_APP_ID", "")
+FEISHU_APP_SECRET = os.getenv("FEISHU_APP_SECRET", "")
 
-# ─── 关键词 ────────────────────────────────────────────────────
+# ─── 关键词过滤 ──────────────────────────────────────────────────
 AI_KEYWORDS = [
     "AGI", "GPT", "Claude", "Gemini", "OpenAI", "Anthropic", "Google DeepMind",
     "AI regulation", "AI safety", "AI benchmark", "Turing test", "superintelligence",
@@ -37,7 +39,6 @@ CHINA_KEYWORDS = [
     "Huawei", "BYD", "yuan", "RMB", "PBOC", "property market", "Chinese stocks",
     "China economy", "China trade", "rare earth", "TikTok", "China EV",
 ]
-# 政治敏感过滤
 BLOCKED_PATTERNS = [
     r"taiwan.*invasi", r"invad.*taiwan", r"xi jinping.*removed",
     r"china.*coup", r"regime.*change.*china", r"CCP.*collapse",
@@ -46,30 +47,24 @@ BLOCKED_PATTERNS = [
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("polymarket-watch")
 
-
 # ════════════════════════════════════════════════════════════════
-# 1. API 获取与过滤逻辑 (保持你原有的扎实逻辑不变)
+# 1. API 基础函数 (Gamma & CLOB)
 # ════════════════════════════════════════════════════════════════
 
-def gamma_get(endpoint: str, params: dict | None = None, retries: int = 3) -> list | dict:
-    url = f"{GAMMA_API}/{endpoint}"
-    for attempt in range(retries):
-        try:
-            r = requests.get(url, params=params, timeout=30)
-            r.raise_for_status()
-            return r.json()
-        except Exception as e:
-            log.warning(f"Gamma API {endpoint} attempt {attempt+1} failed: {e}")
-            if attempt < retries - 1:
-                time.sleep(2 ** attempt)
-    return []
+def gamma_get(endpoint: str, params: dict | None = None) -> list | dict:
+    try:
+        r = requests.get(f"{GAMMA_API}/{endpoint}", params=params, timeout=30)
+        r.raise_for_status()
+        return r.json()
+    except Exception as e:
+        log.warning(f"Gamma API 访问失败: {e}")
+        return []
 
 def fetch_all_active_markets(limit: int = 100, max_pages: int = 10) -> list:
     all_markets = []
     for page in range(max_pages):
-        offset = page * limit
         batch = gamma_get("markets", params={
-            "limit": limit, "offset": offset, "active": "true",
+            "limit": limit, "offset": page * limit, "active": "true",
             "closed": "false", "order": "volume24hr", "ascending": "false",
         })
         if not isinstance(batch, list):
@@ -80,250 +75,216 @@ def fetch_all_active_markets(limit: int = 100, max_pages: int = 10) -> list:
         time.sleep(0.3)
     return all_markets
 
-def filter_relevant_markets(markets: list) -> dict:
-    ai_markets, china_markets = [], []
-    for m in markets:
-        text = f"{m.get('question', '')} {m.get('description', '')} {m.get('groupItemTitle', '')}".lower()
-        if any(re.search(pat, text, re.I) for pat in BLOCKED_PATTERNS): continue
-        if any(kw.lower() in text for kw in AI_KEYWORDS): ai_markets.append(m)
-        if any(kw.lower() in text for kw in CHINA_KEYWORDS): china_markets.append(m)
-    return {"ai": ai_markets, "china": china_markets}
-
-def clob_get(endpoint: str, params: dict | None = None) -> dict | list:
-    try:
-        r = requests.get(f"{CLOB_API}/{endpoint}", params=params, timeout=15)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        log.warning(f"CLOB API {endpoint} failed: {e}")
-        return {}
-
-def get_midpoint(token_id: str) -> float | None:
-    data = clob_get("midpoint", params={"token_id": token_id})
-    return float(data["mid"]) if data.get("mid") is not None else None
-
 def enrich_with_prices(markets: list) -> list:
     for m in markets:
         prices_str = m.get("outcomePrices", "")
-        if isinstance(prices_str, str) and prices_str:
-            try:
-                prices = json.loads(prices_str)
-                m["_parsed_prices"] = [float(p) for p in prices]
-                m["_yes_price"] = m["_parsed_prices"][0] if m["_parsed_prices"] else None
-            except (json.JSONDecodeError, ValueError):
-                m["_yes_price"] = None
-        elif isinstance(prices_str, list):
-            m["_parsed_prices"] = [float(p) for p in prices_str]
-            m["_yes_price"] = m["_parsed_prices"][0] if prices_str else None
-        else:
-            m["_yes_price"] = None
-
-        if m.get("_yes_price") is None:
-            token_ids_str = m.get("clobTokenIds", "")
-            if isinstance(token_ids_str, str) and token_ids_str:
-                try: token_ids = json.loads(token_ids_str)
-                except (json.JSONDecodeError, ValueError): token_ids = []
-            elif isinstance(token_ids_str, list): token_ids = token_ids_str
-            else: token_ids = []
-            
-            if token_ids:
-                mid = get_midpoint(token_ids[0])
-                if mid is not None: m["_yes_price"] = mid
-                time.sleep(0.15)
+        try:
+            if isinstance(prices_str, str) and prices_str:
+                m["_yes_price"] = float(json.loads(prices_str)[0])
+            elif isinstance(prices_str, list) and prices_str:
+                m["_yes_price"] = float(prices_str[0])
+            else:
+                # Fallback to CLOB Midpoint
+                token_ids = m.get("clobTokenIds", "[]")
+                t_list = json.loads(token_ids) if isinstance(token_ids, str) else token_ids
+                if t_list:
+                    r = requests.get(f"{CLOB_API}/midpoint", params={"token_id": t_list[0]}, timeout=10)
+                    m["_yes_price"] = float(r.json().get("mid")) if r.status_code == 200 else None
+                    time.sleep(0.1)
+        except: m["_yes_price"] = None
     return markets
 
-
 # ════════════════════════════════════════════════════════════════
-# 2. 历史数据状态机
+# 2. 核心逻辑：历史对比与 Slug 生成
 # ════════════════════════════════════════════════════════════════
 
 def load_history() -> dict:
     if HISTORY_FILE.exists():
         try: return json.loads(HISTORY_FILE.read_text("utf-8"))
         except: pass
-    return {"last_updated": "", "markets": {}}
-
-def save_history(history: dict):
-    HISTORY_FILE.write_text(json.dumps(history, ensure_ascii=False, indent=2), "utf-8")
+    return {"markets": {}}
 
 def make_slug(m: dict) -> str:
     question = m.get("question", m.get("groupItemTitle", ""))
     slug = re.sub(r'[^a-z0-9]+', '-', question.lower()).strip('-')[:80]
     return slug or m.get("conditionId", "unknown")
 
-def compare_with_history(markets: list, history: dict, now_str: str) -> list:
+def compare_and_save(markets: list, history: dict, now_str: str):
     for m in markets:
         slug = make_slug(m)
-        m["_slug"] = slug
         price = m.get("_yes_price")
-        if price is None:
-            m["_change"] = None
-            continue
+        if price is None: continue
 
-        prev = history.get("markets", {}).get(slug)
-        if prev and prev.get("current_probability") is not None:
+        prev = history["markets"].get(slug)
+        if prev:
             m["_change"] = round(price - prev["current_probability"], 4)
             m["_prev_prob"] = prev["current_probability"]
         else:
             m["_change"] = None
             m["_is_new"] = True
 
-        hist_entry = history.get("markets", {}).get(slug, {})
-        hist_history = hist_entry.get("history", [])
-        hist_history.append({"date": now_str, "probability": price})
-        
-        history.setdefault("markets", {})[slug] = {
-            "name": m.get("question", m.get("groupItemTitle", "")),
-            "url": f"https://polymarket.com/event/{m.get('slug', slug)}",
-            "category": "ai" if m.get("_cat") == "ai" else "china",
+        history["markets"][slug] = {
             "current_probability": price,
-            "previous_probability": m.get("_prev_prob", price),
-            "first_seen": hist_entry.get("first_seen", now_str[:10]),
-            "history": hist_history[-30:],
+            "last_updated": now_str,
+            "history": (prev.get("history", []) + [{"d": now_str, "p": price}])[-20:]
         }
-    return markets
+    HISTORY_FILE.write_text(json.dumps(history, ensure_ascii=False, indent=2), "utf-8")
 
 # ════════════════════════════════════════════════════════════════
-# 3. UI 渲染引擎：动态颜色与富文本卡片
+# 3. UI 渲染逻辑 (针对飞书进行高定排版)
 # ════════════════════════════════════════════════════════════════
 
 def pct(v: float | None) -> str:
     return f"{v*100:.1f}%" if v is not None else "N/A"
 
 def format_trend(c: float | None) -> str:
-    """带颜色的涨跌幅格式化（适用飞书卡片）"""
-    if c is None: return "<font color='grey'>新开盘</font>"
+    if c is None: return "<font color='grey'>New</font>"
     pp = c * 100
-    if pp >= 1.0: return f"<font color='red'>🔥 +{pp:.1f}pp</font>"
-    if pp <= -1.0: return f"<font color='green'>🍃 {pp:.1f}pp</font>"
-    if pp > 0: return f"<font color='grey'>+{pp:.1f}pp</font>"
-    return f"<font color='grey'>{pp:.1f}pp</font>"
+    if pp >= 0.5: return f"<font color='red'>🔥 +{pp:.1f}pp</font>"
+    if pp <= -0.5: return f"<font color='green'>🍃 {pp:.1f}pp</font>"
+    return f"<font color='grey'>{'+' if pp>0 else ''}{pp:.1f}pp</font>"
 
-def push_feishu_interactive(ai_markets: list, china_markets: list, now: datetime, doc_url: str = ""):
-    if not FEISHU_WEBHOOK_URL: return
-    date_str = now.strftime("%Y-%m-%d %H:%M")
-
-    def sort_key(m): return abs(m.get("_change") or 0)
-    ai_sorted = sorted(ai_markets, key=sort_key, reverse=True)
-    china_sorted = sorted(china_markets, key=sort_key, reverse=True)
+def generate_doc_markdown(ai_markets, china_markets, now):
+    """生成用于飞书长文档的详细 Markdown 内容"""
+    lines = [f"# Polymarket 深度交易面板 | {now.strftime('%Y-%m-%d')}", "---"]
     
-    all_sorted = sorted(ai_markets + china_markets, key=sort_key, reverse=True)
-    significant = [m for m in all_sorted if m.get("_change") is not None and abs(m["_change"]) >= 0.03]
-    danger_consensus = [m for m in all_sorted if m.get("_yes_price") is not None and (m["_yes_price"] > 0.90 or m["_yes_price"] < 0.10)]
+    lines.append("## 🤖 AI 赛道详情")
+    for m in ai_markets:
+        lines.append(f"- **{m.get('question')}**\n  概率: {pct(m.get('_yes_price'))} | 变动: {format_trend(m.get('_change'))}")
+    
+    lines.append("\n## 🇨🇳 中国宏观详情")
+    for m in china_markets:
+        lines.append(f"- **{m.get('question')}**\n  概率: {pct(m.get('_yes_price'))} | 变动: {format_trend(m.get('_change'))}")
+        
+    lines.append("\n---\n*数据实时抓取自 Polymarket Gamma API*")
+    return "\n".join(lines)
 
+# ════════════════════════════════════════════════════════════════
+# 4. 飞书 API 联动 (文档创建 + Webhook)
+# ════════════════════════════════════════════════════════════════
+
+def get_tenant_token():
+    if not FEISHU_APP_ID or not FEISHU_APP_SECRET: return None
+    url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
+    try:
+        r = requests.post(url, json={"app_id": FEISHU_APP_ID, "app_secret": FEISHU_APP_SECRET})
+        return r.json().get("tenant_access_token")
+    except: return None
+
+def push_feishu_doc(title, md_content):
+    token = get_tenant_token()
+    if not token: return ""
+    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=utf-8"}
+    
+    try:
+        # 1. 创建文档
+        r = requests.post("https://open.feishu.cn/open-apis/docx/v1/documents", 
+                          headers=headers, json={"title": title})
+        doc_id = r.json().get("data", {}).get("document", {}).get("document_id")
+        if not doc_id: return ""
+
+        # 2. 写入内容 (简化版写入)
+        requests.post(f"https://open.feishu.cn/open-apis/docx/v1/documents/{doc_id}/blocks/{doc_id}/children",
+                      headers=headers, json={
+                          "children": [{"block_type": 2, "text": {"elements": [{"text_run": {"content": md_content}}]}}]
+                      })
+        
+        # 3. 开启权限：链接所有人可阅读
+        requests.patch(f"https://open.feishu.cn/open-apis/drive/v1/permissions/{doc_id}/public?type=docx",
+                       headers=headers, json={"external_access_entity": "open", "security_entity": "anyone_can_view", "link_share_entity": "anyone_readable"})
+        
+        return f"https://hillhousecap.feishu.cn/docx/{doc_id}"
+    except Exception as e:
+        log.error(f"飞书文档创建失败: {e}")
+        return ""
+
+def push_feishu_card(ai_markets, china_markets, now, doc_url=""):
+    if not FEISHU_WEBHOOK_URL: return
+    
+    # 筛选异动较大的市场
+    all_m = ai_markets + china_markets
+    significant = sorted([m for m in all_m if m.get("_change")], key=lambda x: abs(x["_change"]), reverse=True)[:3]
+    
     elements = []
-
-    # 🎯 今日核心异动
+    
+    # 核心异动模块
     elements.append({"tag": "markdown", "content": "**▌ ⚡️ 核心异动 (Top Movers)**"})
-    top_movers_md = ""
-    if significant:
-        for i, m in enumerate(significant[:3], 1):
-            name = m.get("question", m.get("groupItemTitle", "Unknown"))
-            top_movers_md += f"👉 **{name}**\n当前概率: **{pct(m.get('_yes_price'))}** | 变动: {format_trend(m.get('_change'))}\n\n"
-    else:
-        top_movers_md = "<font color='grey'>过去 24 小时大盘情绪稳定，无显著资金博弈。</font>\n"
-    elements.append({"tag": "markdown", "content": top_movers_md.strip()})
+    movers_md = ""
+    for m in significant:
+        movers_md += f"👉 **{m.get('question')[:50]}...**\n概率: **{pct(m.get('_yes_price'))}** | 变动: {format_trend(m.get('_change'))}\n\n"
+    elements.append({"tag": "markdown", "content": movers_md or "今日情绪稳定，无显著异动。"})
     elements.append({"tag": "hr"})
 
-    # ⚠️ 共识极值区预警
-    if danger_consensus:
-        elements.append({"tag": "markdown", "content": "**▌ ⚠️ 共识极值预警 (Danger Zones)**\n<font color='grey'>当前处于 >90% 或 <10% 的高风险共识区</font>"})
-        danger_md = ""
-        for m in danger_consensus[:3]:
-            name = m.get("question", m.get("groupItemTitle", ""))
-            direction = "极端看多" if m.get("_yes_price", 0) > 0.9 else "极端看空"
-            danger_md += f"🎯 **{name}**\n<font color='red'>当前极值: {pct(m.get('_yes_price'))} ({direction})</font>\n\n"
-        elements.append({"tag": "markdown", "content": danger_md.strip()})
-        elements.append({"tag": "hr"})
-
-    # 🤖 AI 赛道追踪
-    elements.append({"tag": "markdown", "content": "**▌ 🤖 AI 赛道大盘**"})
-    if ai_sorted:
-        ai_md = ""
-        for m in ai_sorted[:5]:
-            name = m.get("question", m.get("groupItemTitle", ""))
-            ai_md += f"- **{name}**\n  {pct(m.get('_yes_price'))} ({format_trend(m.get('_change'))})\n"
-        elements.append({"tag": "markdown", "content": ai_md.strip()})
-    else:
-        elements.append({"tag": "markdown", "content": "<font color='grey'>暂无活跃盘口</font>"})
-    elements.append({"tag": "hr"})
-
-    # 🇨🇳 中国宏观追踪
-    elements.append({"tag": "markdown", "content": "**▌ 🇨🇳 中国宏观与出海**"})
-    if china_sorted:
-        china_md = ""
-        for m in china_sorted[:5]:
-            name = m.get("question", m.get("groupItemTitle", ""))
-            china_md += f"- **{name}**\n  {pct(m.get('_yes_price'))} ({format_trend(m.get('_change'))})\n"
-        elements.append({"tag": "markdown", "content": china_md.strip()})
-    else:
-        elements.append({"tag": "markdown", "content": "<font color='grey'>暂无活跃盘口</font>"})
-
-    # 底部 Footer 与 按钮
-    elements.append({"tag": "hr"})
+    # AI 赛道
+    elements.append({"tag": "markdown", "content": "**▌ 🤖 AI 赛道概览**"})
+    ai_md = ""
+    for m in sorted(ai_markets, key=lambda x: x.get("_yes_price") or 0, reverse=True)[:5]:
+        ai_md += f"• {m.get('question')[:40]}... **{pct(m.get('_yes_price'))}**\n"
+    elements.append({"tag": "markdown", "content": ai_md or "暂无数据"})
     
     if doc_url:
+        elements.append({"tag": "hr"})
         elements.append({
             "tag": "action",
             "actions": [{
-                "tag": "button", "text": {"tag": "plain_text", "content": "📄 查阅完整交易面板"},
+                "tag": "button", "text": {"tag": "plain_text", "content": "📄 查看详细交易面板"},
                 "url": doc_url, "type": "primary"
             }]
         })
 
-    card_payload = {
+    payload = {
         "msg_type": "interactive",
         "card": {
-            "config": {"wide_screen_mode": True, "enable_forward": True},
-            "header": {
-                "title": {"tag": "plain_text", "content": f"Polymarket 资金风向标 | {now.strftime('%m-%d')}"},
-                "template": "blue"
-            },
-            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "Powered by Polymarket API + Cloud Watcher"}]}]
+            "config": {"wide_screen_mode": True},
+            "header": {"title": {"tag": "plain_text", "content": f"Polymarket 资金风向标 | {now.strftime('%m-%d')}"}, "template": "blue"},
+            "elements": elements + [{"tag": "note", "elements": [{"tag": "plain_text", "content": "Powered by Cloud Watcher"}]}]
         }
     }
-
-    try: requests.post(FEISHU_WEBHOOK_URL, json=card_payload, timeout=15)
-    except Exception as e: log.error(f"飞书 Webhook 推送失败: {e}")
-
+    requests.post(FEISHU_WEBHOOK_URL, json=payload)
 
 # ════════════════════════════════════════════════════════════════
-# 4. 主流程
+# 5. 主程序入口
 # ════════════════════════════════════════════════════════════════
 
 def main():
     now = datetime.now(BJT)
     now_str = now.strftime("%Y-%m-%dT%H:%M")
-    log.info(f"=== Polymarket Watch 运行开始 === {now_str}")
+    log.info(f"=== Polymarket Watch 启动 === {now_str}")
 
+    # 1. 抓取与过滤
+    raw_markets = fetch_all_active_markets()
+    ai_list = []
+    china_list = []
+    
+    for m in raw_markets:
+        text = f"{m.get('question')} {m.get('description')}".lower()
+        if any(re.search(p, text, re.I) for p in BLOCKED_PATTERNS): continue
+        if any(kw.lower() in text for kw in AI_KEYWORDS): ai_list.append(m)
+        if any(kw.lower() in text for kw in CHINA_KEYWORDS): china_list.append(m)
+
+    # 2. 价格补全与历史比对
+    ai_list = enrich_with_prices(ai_list)
+    china_list = enrich_with_prices(china_list)
+    
     history = load_history()
-    all_markets = fetch_all_active_markets(limit=100, max_pages=10)
-    
-    relevant = filter_relevant_markets(all_markets)
-    ai_markets = enrich_with_prices(relevant["ai"])
-    china_markets = enrich_with_prices(relevant["china"])
+    compare_and_save(ai_list + china_list, history, now_str)
 
-    for m in ai_markets: m["_cat"] = "ai"
-    for m in china_markets: m["_cat"] = "china"
+    # 3. 飞书云文档生成 (自检逻辑)
+    doc_url = ""
+    if FEISHU_APP_ID and FEISHU_APP_SECRET:
+        log.info("检测到飞书应用密钥，正在生成详细简报文档...")
+        detailed_md = generate_doc_markdown(ai_list, china_list, now)
+        doc_url = push_feishu_doc(f"Polymarket 交易明细 | {now.strftime('%m-%d %H:%M')}", detailed_md)
+        if doc_url:
+            log.info(f"成功生成飞书文档: {doc_url}")
+        else:
+            log.warning("飞书文档生成失败，请检查应用权限是否包含 docx:document")
+    else:
+        log.info("未配置 FEISHU_APP_ID，跳过云文档生成环节。")
 
-    all_relevant = ai_markets + china_markets
-    seen_slugs, unique = set(), []
-    for m in all_relevant:
-        slug = make_slug(m)
-        if slug not in seen_slugs:
-            seen_slugs.add(slug)
-            unique.append(m)
-
-    compare_with_history(unique, history, now_str)
-    
-    history["last_updated"] = now_str
-    save_history(history)
-
-    # 推送高定版结构化飞书卡片
-    push_feishu_interactive(ai_markets, china_markets, now, doc_url="")
-    
-    log.info("=== 运行完毕，消息已投递 ===")
-    return 0
+    # 4. Webhook 卡片推送
+    push_feishu_card(ai_list, china_list, now, doc_url=doc_url)
+    log.info("=== 任务完成，消息已投递 ===")
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
