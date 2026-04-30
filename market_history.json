@@ -1,16 +1,16 @@
 {
   "markets": {
     "will-openai-have-the-best-ai-model-at-the-end-of-april-2026": {
-      "p": 0.011,
-      "t": "2026-04-29 14:23"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-april-30": {
       "p": 0.999,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-anthropic-have-the-best-ai-model-at-the-end-of-april-2026": {
-      "p": 0.985,
-      "t": "2026-04-29 14:23"
+      "p": 0.996,
+      "t": "2026-04-30 14:26"
     },
     "us-forces-enter-iran-by-april-30": {
       "p": 0.9985,
@@ -18,7 +18,7 @@
     },
     "will-congo-dr-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-trump-talk-to-xi-jinping-in-march": {
       "p": 0.0005,
@@ -30,15 +30,15 @@
     },
     "will-scotland-win-the-2026-fifa-world-cup": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "us-forces-enter-iran-by-december-31": {
       "p": 0.9985,
       "t": "2026-04-08 13:46"
     },
     "will-spain-win-the-2026-fifa-world-cup": {
-      "p": 0.1535,
-      "t": "2026-04-29 14:23"
+      "p": 0.1525,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-300-319-tweets-from-march-27-to-april-3-2026": {
       "p": 0.0005,
@@ -57,8 +57,8 @@
       "t": "2026-04-04 02:36"
     },
     "will-the-san-antonio-spurs-win-the-2026-nba-finals": {
-      "p": 0.1725,
-      "t": "2026-04-29 14:23"
+      "p": 0.1665,
+      "t": "2026-04-30 14:26"
     },
     "will-gavin-newsom-win-the-2028-us-presidential-election": {
       "p": 0.1735,
@@ -70,27 +70,27 @@
     },
     "will-brazil-win-the-2026-fifa-world-cup": {
       "p": 0.0855,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-uruguay-win-the-2026-fifa-world-cup": {
       "p": 0.0105,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "us-x-iran-ceasefire-by-april-15": {
       "p": 0.13,
       "t": "2026-04-07 13:46"
     },
     "will-atletico-madrid-win-the-2025-26-champions-league": {
-      "p": 0.1125,
-      "t": "2026-04-29 14:23"
+      "p": 0.09,
+      "t": "2026-04-30 14:26"
     },
     "will-san-marino-win-eurovision-2026": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-judy-shelton-be-confirmed-as-fed-chair": {
       "p": 0.0055,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "indian-premier-league-chennai-super-kings-vs-punjab-kings": {
       "p": 0.615,
@@ -98,11 +98,11 @@
     },
     "will-estonia-win-eurovision-2026": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-poland-win-eurovision-2026": {
       "p": 0.0025,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-the-los-angeles-clippers-win-the-2026-nba-finals": {
       "p": 0.0005,
@@ -122,11 +122,11 @@
     },
     "will-mike-pence-win-the-2028-republican-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-france-win-the-2026-fifa-world-cup": {
       "p": 0.1605,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-j-d-vance-win-the-2028-republican-presidential-nomination": {
       "p": 0.3865,
@@ -138,23 +138,23 @@
     },
     "will-elon-musk-win-the-2028-republican-presidential-nomination": {
       "p": 0.0105,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-iranian-regime-fall-by-april-30": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-jon-stewart-win-the-2028-democratic-presidential-nomination": {
-      "p": 0.0235,
-      "t": "2026-04-29 14:23"
+      "p": 0.0225,
+      "t": "2026-04-30 14:26"
     },
     "will-austria-win-eurovision-2026": {
       "p": 0.0025,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-cura-ao-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-ronaldo-caiado-win-the-2026-brazilian-presidential-election": {
       "p": 0.0175,
@@ -182,7 +182,7 @@
     },
     "will-portugal-win-eurovision-2026": {
       "p": 0.0025,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-latvia-win-eurovision-2026": {
       "p": 0.0025,
@@ -190,7 +190,7 @@
     },
     "will-montenegro-win-eurovision-2026": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-340-359-tweets-from-march-27-to-april-3-2026": {
       "p": 0.0005,
@@ -202,7 +202,7 @@
     },
     "will-azerbaijan-win-eurovision-2026": {
       "p": 0.0025,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "timberwolves-vs-76ers": {
       "p": 0.435,
@@ -226,31 +226,31 @@
     },
     "will-the-iranian-regime-fall-by-june-30": {
       "p": 0.075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-68-000-on-april-3": {
       "p": 0.0005,
       "t": "2026-04-04 02:36"
     },
     "will-the-los-angeles-lakers-win-the-2026-nba-finals": {
-      "p": 0.0325,
-      "t": "2026-04-29 14:23"
+      "p": 0.0315,
+      "t": "2026-04-30 14:26"
     },
     "will-morocco-win-the-2026-fifa-world-cup": {
       "p": 0.0175,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-albania-win-eurovision-2026": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-us-confirm-that-aliens-exist-before-2027": {
-      "p": 0.185,
-      "t": "2026-04-29 14:23"
+      "p": 0.175,
+      "t": "2026-04-30 14:26"
     },
     "will-mexico-win-the-2026-fifa-world-cup": {
       "p": 0.0105,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "us-x-iran-ceasefire-by-may-31": {
       "p": 0.9995,
@@ -266,19 +266,19 @@
     },
     "will-georgia-win-eurovision-2026": {
       "p": 0.0025,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-paraguay-win-the-2026-fifa-world-cup": {
       "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-serbia-win-eurovision-2026": {
       "p": 0.0035,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-china-invade-taiwan-by-end-of-2026": {
       "p": 0.0745,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-rayo-vallecano-de-madrid-win-on-2026-04-03": {
       "p": 0.555,
@@ -286,27 +286,27 @@
     },
     "will-egypt-win-the-2026-fifa-world-cup": {
       "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-armenia-win-eurovision-2026": {
-      "p": 0.0035,
-      "t": "2026-04-28 14:29"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-the-next-prime-minister-of-hungary-be-j-nos-l-z-r": {
       "p": 0.0005,
       "t": "2026-04-16 14:01"
     },
     "will-jesus-christ-return-before-2027": {
-      "p": 0.0365,
-      "t": "2026-04-29 14:23"
+      "p": 0.0355,
+      "t": "2026-04-30 14:26"
     },
     "will-gavin-newsom-win-the-2028-democratic-presidential-nomination": {
       "p": 0.2665,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-ghana-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-58-000-on-april-3": {
       "p": 0.9995,
@@ -314,7 +314,7 @@
     },
     "will-gina-raimondo-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-jon-ossoff-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0645,
@@ -342,7 +342,7 @@
     },
     "will-bitcoin-reach-150-000-in-april": {
       "p": 0.0005,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-70-000-on-april-3": {
       "p": 0.0005,
@@ -354,7 +354,7 @@
     },
     "will-ivory-coast-win-the-2026-fifa-world-cup": {
       "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-60-000-on-april-3": {
       "p": 0.9995,
@@ -369,12 +369,12 @@
       "t": "2026-04-29 14:23"
     },
     "will-fran-ois-bayrou-win-the-2027-french-presidential-election": {
-      "p": 0.004,
-      "t": "2026-04-26 14:06"
+      "p": 0.0045,
+      "t": "2026-04-30 14:26"
     },
     "will-erika-kirk-win-the-2028-republican-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-portland-trail-blazers-win-the-2026-nba-finals": {
       "p": 0.0005,
@@ -397,8 +397,8 @@
       "t": "2026-04-24 14:08"
     },
     "will-wti-crude-oil-wti-hit-high-200-in-april": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.001,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-62-000-on-april-3": {
       "p": 0.9995,
@@ -406,23 +406,23 @@
     },
     "will-qatar-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-germany-win-the-2026-fifa-world-cup": {
       "p": 0.0515,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-saudi-arabia-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-bernie-sanders-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0055,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-japan-win-the-2026-fifa-world-cup": {
       "p": 0.0215,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-israel-take-military-action-in-gaza-on-march-28-2026": {
       "p": 0.0005,
@@ -430,27 +430,27 @@
     },
     "will-austria-win-the-2026-fifa-world-cup": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-south-korea-win-the-2026-fifa-world-cup": {
       "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-haiti-win-the-2026-fifa-world-cup": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-south-africa-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-tunisia-win-the-2026-fifa-world-cup": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-u-s-invade-iran-before-2027": {
-      "p": 0.335,
-      "t": "2026-04-29 14:23"
+      "p": 0.345,
+      "t": "2026-04-30 14:26"
     },
     "kharg-island-no-longer-under-iranian-control-by-april-15": {
       "p": 0.0005,
@@ -462,7 +462,7 @@
     },
     "will-jordan-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "counter-strike-g2-vs-gamerlegion-map-1-winner": {
       "p": 0.9995,
@@ -474,19 +474,19 @@
     },
     "will-argentina-win-the-2026-fifa-world-cup": {
       "p": 0.0865,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-next-prime-minister-of-hungary-be-p-ter-magyar": {
-      "p": 0.9925,
-      "t": "2026-04-29 14:23"
+      "p": 0.994,
+      "t": "2026-04-30 14:26"
     },
     "will-beto-o-rourke-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-portugal-win-the-2026-fifa-world-cup": {
       "p": 0.0735,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-golden-state-warriors-win-the-2026-nba-finals": {
       "p": 0.0005,
@@ -498,27 +498,27 @@
     },
     "will-steve-bannon-win-the-2028-republican-presidential-nomination": {
       "p": 0.0075,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-australia-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-cl-mentine-autain-win-the-2027-french-presidential-election": {
-      "p": 0.0065,
-      "t": "2026-04-04 13:21"
+      "p": 0.0075,
+      "t": "2026-04-30 14:26"
     },
     "will-cape-verde-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "pelicans-vs-kings": {
       "p": 0.0005,
       "t": "2026-04-04 13:21"
     },
     "will-trump-visit-china-by-april-30": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-luka-doncic-win-the-2025-2026-nba-mvp": {
       "p": 0.004,
@@ -526,19 +526,19 @@
     },
     "will-croatia-win-the-2026-fifa-world-cup": {
       "p": 0.0105,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "netanyahu-out-by-april-30": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-norway-win-eurovision-2026": {
       "p": 0.0045,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-jared-polis-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0075,
@@ -546,11 +546,11 @@
     },
     "will-algeria-win-the-2026-fifa-world-cup": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-iran-win-the-2026-fifa-world-cup": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-lisabeth-borne-win-the-2027-french-presidential-election": {
       "p": 0.0045,
@@ -562,11 +562,11 @@
     },
     "will-new-zealand-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "strait-of-hormuz-traffic-returns-to-normal-by-end-of-april": {
-      "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-sheffield-united-fc-win-on-2026-04-03": {
       "p": 0.0005,
@@ -578,11 +578,11 @@
     },
     "will-switzerland-win-eurovision-2026": {
       "p": 0.0035,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-belgium-win-eurovision-2026": {
       "p": 0.0035,
-      "t": "2026-04-27 14:27"
+      "t": "2026-04-30 14:26"
     },
     "will-lmp-hungary-s-green-party-lmp-win-the-most-seats-in-the-next-hungarian-parl": {
       "p": 0.0005,
@@ -610,7 +610,7 @@
     },
     "will-alexander-albon-be-the-2026-f1-drivers-champion": {
       "p": 0.0045,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-nikki-haley-win-the-2028-republican-presidential-nomination": {
       "p": 0.0095,
@@ -622,7 +622,7 @@
     },
     "will-valtteri-bottas-be-the-2026-f1-drivers-champion": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-kim-kardashian-win-the-2028-us-presidential-election": {
       "p": 0.0065,
@@ -633,16 +633,16 @@
       "t": "2026-04-06 13:58"
     },
     "trump-announces-end-of-military-operations-against-iran-by-april-30th": {
-      "p": 0.0275,
-      "t": "2026-04-29 14:23"
+      "p": 0.0055,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-74-000-on-april-4": {
       "p": 0.0005,
       "t": "2026-04-04 13:21"
     },
     "will-ya-l-braun-pivet-win-the-2027-french-presidential-election": {
-      "p": 0.0055,
-      "t": "2026-04-26 14:06"
+      "p": 0.0045,
+      "t": "2026-04-30 14:26"
     },
     "will-switzerland-win-the-2026-fifa-world-cup": {
       "p": 0.0095,
@@ -654,19 +654,19 @@
     },
     "will-sergio-p-rez-be-the-2026-f1-drivers-champion": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-oliver-bearman-be-the-2026-f1-drivers-champion": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-netherlands-win-the-2026-fifa-world-cup": {
       "p": 0.0335,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-stephen-miran-be-confirmed-as-fed-chair": {
       "p": 0.0005,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "trump-announces-end-of-military-operations-against-iran-by-april-7th": {
       "p": 0.0035,
@@ -682,7 +682,7 @@
     },
     "will-lebron-james-win-the-2028-us-presidential-election": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-fidesz-kdnp-win-the-most-seats-in-the-next-hungarian-parliamentary-election": {
       "p": 0.19,
@@ -698,23 +698,23 @@
     },
     "will-usa-win-the-2026-fifa-world-cup": {
       "p": 0.0155,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-pierre-gasly-be-the-2026-f1-drivers-champion": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-lance-stroll-be-the-2026-f1-drivers-champion": {
-      "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-isack-hadjar-be-the-2026-f1-drivers-champion": {
-      "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-hunter-biden-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-leicester-city-fc-win-on-2026-04-03": {
       "p": 0.0005,
@@ -726,11 +726,11 @@
     },
     "will-franco-colapinto-be-the-2026-f1-drivers-champion": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-tulsi-gabbard-win-the-2028-republican-presidential-nomination": {
       "p": 0.0115,
-      "t": "2026-04-27 14:27"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-76-000-on-april-4": {
       "p": 0.0005,
@@ -758,11 +758,11 @@
     },
     "will-arvid-lindblad-be-the-2026-f1-drivers-champion": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-hillary-clinton-win-the-2028-democratic-presidential-nomination": {
-      "p": 0.0075,
-      "t": "2026-04-28 14:29"
+      "p": 0.0065,
+      "t": "2026-04-30 14:26"
     },
     "will-norwich-city-fc-win-on-2026-04-03": {
       "p": 0.0005,
@@ -801,8 +801,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-rand-paul-win-the-2028-republican-presidential-nomination": {
-      "p": 0.0115,
-      "t": "2026-04-28 14:29"
+      "p": 0.0105,
+      "t": "2026-04-30 14:26"
     },
     "will-nguy-n-duy-ng-c-be-the-next-president-of-vietnam": {
       "p": 0.0005,
@@ -810,7 +810,7 @@
     },
     "will-carlos-roberto-massa-j-nior-win-the-2026-brazilian-presidential-election": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-tr-n-c-m-t-be-the-next-president-of-vietnam": {
       "p": 0.0005,
@@ -818,15 +818,15 @@
     },
     "will-esteban-ocon-be-the-2026-f1-drivers-champion": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-74-000-on-april-3": {
       "p": 0.0005,
       "t": "2026-04-04 02:36"
     },
     "trump-out-as-president-before-2027": {
-      "p": 0.165,
-      "t": "2026-04-27 14:27"
+      "p": 0.145,
+      "t": "2026-04-30 14:26"
     },
     "iran-x-israel-us-conflict-ends-by-april-30": {
       "p": 0.9755,
@@ -841,8 +841,8 @@
       "t": "2026-04-21 14:02"
     },
     "will-eduardo-bolsonaro-win-the-2026-brazilian-presidential-election": {
-      "p": 0.0035,
-      "t": "2026-04-28 14:29"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-seo-young-kyo-win-the-2026-seoul-mayoral-election": {
       "p": 0.0015,
@@ -850,7 +850,7 @@
     },
     "will-the-iranian-regime-fall-before-2027": {
       "p": 0.205,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-wrexham-afc-win-on-2026-04-03": {
       "p": 0.0005,
@@ -858,15 +858,15 @@
     },
     "will-uzbekistan-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-fernando-alonso-be-the-2026-f1-drivers-champion": {
-      "p": 0.0045,
-      "t": "2026-04-28 14:29"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-scott-bessent-be-confirmed-as-fed-chair": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-raphael-warnock-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0075,
@@ -874,19 +874,19 @@
     },
     "will-liam-lawson-be-the-2026-f1-drivers-champion": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-bosnia-herzegovina-win-the-2026-fifa-world-cup": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-cho-eun-hee-win-the-2026-seoul-mayoral-election": {
       "p": 0.0025,
       "t": "2026-04-27 14:27"
     },
     "will-the-boston-celtics-win-the-2026-nba-finals": {
-      "p": 0.1425,
-      "t": "2026-04-29 14:23"
+      "p": 0.1235,
+      "t": "2026-04-30 14:26"
     },
     "will-wti-crude-oil-wti-hit-high-115-week-of-march-30-2026": {
       "p": 0.0015,
@@ -894,7 +894,7 @@
     },
     "will-carlos-sainz-jr-be-the-2026-f1-drivers-champion": {
       "p": 0.0035,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "flyers-vs-islanders": {
       "p": 0.435,
@@ -909,8 +909,8 @@
       "t": "2026-04-04 02:36"
     },
     "will-wti-crude-oil-wti-hit-high-120-in-april": {
-      "p": 0.0125,
-      "t": "2026-04-29 14:23"
+      "p": 0.0555,
+      "t": "2026-04-30 14:26"
     },
     "will-park-yong-jin-win-the-2026-seoul-mayoral-election": {
       "p": 0.0015,
@@ -929,8 +929,8 @@
       "t": "2026-04-04 02:36"
     },
     "will-bitcoin-dip-to-55-000-in-april": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-58-000-on-april-4": {
       "p": 0.9995,
@@ -941,8 +941,8 @@
       "t": "2026-04-04 13:21"
     },
     "russia-x-ukraine-ceasefire-by-june-30-2026": {
-      "p": 0.085,
-      "t": "2026-04-27 14:27"
+      "p": 0.095,
+      "t": "2026-04-30 14:26"
     },
     "lol-eintracht-spandau-vs-rossmann-centaurs-bo1-prime-league-1st-division-regular": {
       "p": 0.9995,
@@ -953,8 +953,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-10-fed-rate-cuts-happen-in-2026": {
-      "p": 0.0035,
-      "t": "2026-04-27 14:27"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "hawks-vs-nets": {
       "p": 0.925,
@@ -965,16 +965,16 @@
       "t": "2026-04-07 13:46"
     },
     "kharg-island-no-longer-under-iranian-control-by-april-30": {
-      "p": 0.0055,
-      "t": "2026-04-29 14:23"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "us-x-iran-ceasefire-by-december-31": {
       "p": 0.745,
       "t": "2026-04-07 13:46"
     },
     "will-the-minnesota-timberwolves-win-the-2026-nba-finals": {
-      "p": 0.0055,
-      "t": "2026-04-29 14:23"
+      "p": 0.0145,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-between-70-000-and-72-000-on-april-3": {
       "p": 0.0005,
@@ -982,15 +982,15 @@
     },
     "will-sweden-win-the-2026-fifa-world-cup": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-215-239-tweets-from-april-2-to-april-4-2026": {
       "p": 0.0005,
       "t": "2026-04-04 13:21"
     },
     "will-cho-kuk-win-the-2026-seoul-mayoral-election": {
-      "p": 0.0025,
-      "t": "2026-04-27 14:27"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-canada-win-the-2026-fifa-world-cup": {
       "p": 0.0065,
@@ -1002,7 +1002,7 @@
     },
     "will-bitcoin-dip-to-50-000-in-april": {
       "p": 0.0005,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-500-519-tweets-from-march-31-to-april-7-2026": {
       "p": 0.0005,
@@ -1013,8 +1013,8 @@
       "t": "2026-04-04 13:21"
     },
     "will-park-hong-keun-win-the-2026-seoul-mayoral-election": {
-      "p": 0.0045,
-      "t": "2026-04-26 14:06"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-illinois-win-the-2026-ncaa-tournament": {
       "p": 0.182,
@@ -1038,15 +1038,15 @@
     },
     "will-katie-britt-win-the-2028-republican-presidential-nomination": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "russia-x-ukraine-ceasefire-by-april-30-2026": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-england-win-the-2026-fifa-world-cup": {
       "p": 0.1105,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "trump-announces-end-of-military-operations-against-iran-by-april-15th": {
       "p": 0.0005,
@@ -1057,16 +1057,16 @@
       "t": "2026-04-04 02:36"
     },
     "will-wti-crude-oil-wti-hit-high-130-in-april": {
-      "p": 0.005,
-      "t": "2026-04-29 14:23"
+      "p": 0.0065,
+      "t": "2026-04-30 14:26"
     },
     "will-joe-kent-win-the-2028-republican-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-panama-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "ethereum-up-or-down-on-april-3": {
       "p": 0.0005,
@@ -1078,7 +1078,7 @@
     },
     "will-ecuador-win-the-2026-fifa-world-cup": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-ethereum-be-above-2-300-on-april-3": {
       "p": 0.0005,
@@ -1093,16 +1093,16 @@
       "t": "2026-04-29 14:23"
     },
     "will-wti-crude-oil-wti-hit-high-150-in-april": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.002,
+      "t": "2026-04-30 14:26"
     },
     "will-fc-bayern-m-nchen-win-on-2026-04-04": {
       "p": 0.695,
       "t": "2026-04-04 13:21"
     },
     "will-china-invade-taiwan-by-june-30-2026": {
-      "p": 0.0205,
-      "t": "2026-04-29 14:23"
+      "p": 0.0195,
+      "t": "2026-04-30 14:26"
     },
     "will-toulouse-fc-win-on-2026-04-03": {
       "p": 0.075,
@@ -1122,19 +1122,19 @@
     },
     "trump-out-as-president-by-april-30": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-christopher-waller-be-confirmed-as-fed-chair": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-jerome-powell-be-confirmed-as-fed-chair": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-toronto-raptors-win-the-2026-nba-finals": {
-      "p": 0.0055,
-      "t": "2026-04-29 14:23"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-stephen-a-smith-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0105,
@@ -1158,11 +1158,11 @@
     },
     "will-iraq-win-the-2026-fifa-world-cup": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-oklahoma-city-thunder-win-the-2026-nba-finals": {
-      "p": 0.515,
-      "t": "2026-04-29 14:23"
+      "p": 0.525,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-between-68-000-and-70-000-on-april-3": {
       "p": 0.0005,
@@ -1177,8 +1177,8 @@
       "t": "2026-04-07 13:46"
     },
     "will-bitcoin-dip-to-60-000-in-april": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.001,
+      "t": "2026-04-30 14:26"
     },
     "will-j-b-pritzker-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0195,
@@ -1189,24 +1189,24 @@
       "t": "2026-04-29 14:23"
     },
     "will-john-thune-win-the-2028-republican-presidential-nomination": {
-      "p": 0.0065,
-      "t": "2026-04-28 14:29"
+      "p": 0.0075,
+      "t": "2026-04-30 14:26"
     },
     "will-olivier-faure-win-the-2027-french-presidential-election": {
-      "p": 0.0065,
-      "t": "2026-04-06 13:58"
+      "p": 0.0055,
+      "t": "2026-04-30 14:26"
     },
     "will-ro-khanna-win-the-2028-us-presidential-election": {
       "p": 0.0085,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-the-orlando-magic-win-the-2026-nba-finals": {
-      "p": 0.0095,
-      "t": "2026-04-29 14:23"
+      "p": 0.0085,
+      "t": "2026-04-30 14:26"
     },
     "will-senegal-win-the-2026-fifa-world-cup": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "us-escorts-commercial-ship-through-hormuz-by-april-15": {
       "p": 0.0005,
@@ -1214,15 +1214,15 @@
     },
     "will-pete-hegseth-win-the-2028-us-presidential-election": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-byron-donalds-win-the-2028-republican-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-michel-barnier-win-the-2027-french-presidential-election": {
       "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-t-l-m-be-the-next-president-of-vietnam": {
       "p": 0.9995,
@@ -1234,7 +1234,7 @@
     },
     "will-kim-kardashian-win-the-2028-republican-presidential-nomination": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-phoenix-suns-win-the-2026-nba-finals": {
       "p": 0.0005,
@@ -1245,8 +1245,8 @@
       "t": "2026-04-05 13:45"
     },
     "will-the-detroit-pistons-win-the-2026-nba-finals": {
-      "p": 0.0135,
-      "t": "2026-04-29 14:23"
+      "p": 0.0145,
+      "t": "2026-04-30 14:26"
     },
     "spread-celtics-17-5": {
       "p": 0.9995,
@@ -1273,28 +1273,28 @@
       "t": "2026-04-26 14:06"
     },
     "will-s-gol-ne-royal-win-the-2027-french-presidential-election": {
-      "p": 0.0045,
-      "t": "2026-04-27 14:27"
+      "p": 0.0055,
+      "t": "2026-04-30 14:26"
     },
     "russia-x-ukraine-ceasefire-by-end-of-2026": {
       "p": 0.255,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-turkiye-win-the-2026-fifa-world-cup": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-audi-be-the-2026-f1-constructors-champion": {
       "p": 0.0035,
       "t": "2026-04-29 14:23"
     },
     "will-the-iranian-regime-fall-by-may-31": {
-      "p": 0.0315,
-      "t": "2026-04-29 14:23"
+      "p": 0.0355,
+      "t": "2026-04-30 14:26"
     },
     "netanyahu-out-by-june-30": {
       "p": 0.055,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-gretchen-whitmer-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0135,
@@ -1310,11 +1310,11 @@
     },
     "will-hong-ihk-pyo-win-the-2026-seoul-mayoral-election": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-atlanta-hawks-win-the-2026-nba-finals": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-56-000-on-april-3": {
       "p": 0.9995,
@@ -1326,15 +1326,15 @@
     },
     "will-the-denver-nuggets-win-the-2026-nba-finals": {
       "p": 0.0365,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-480-499-tweets-from-march-31-to-april-7-2026": {
       "p": 0.0005,
       "t": "2026-04-05 13:45"
     },
     "will-kevin-hassett-be-confirmed-as-fed-chair": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-oxford-united-fc-win-on-2026-04-03": {
       "p": 0.0005,
@@ -1346,19 +1346,19 @@
     },
     "will-norway-win-the-2026-fifa-world-cup": {
       "p": 0.0235,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-140-164-tweets-from-april-2-to-april-4-2026": {
       "p": 0.0005,
       "t": "2026-04-05 13:45"
     },
     "will-rafael-l-pez-aliaga-win-the-2026-peruvian-presidential-election": {
-      "p": 0.0235,
-      "t": "2026-04-29 14:23"
+      "p": 0.028,
+      "t": "2026-04-30 14:26"
     },
     "will-wti-crude-oil-wti-hit-high-170-in-april": {
       "p": 0.0015,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-dip-to-58-000-march-30-april-5": {
       "p": 0.0005,
@@ -1373,8 +1373,8 @@
       "t": "2026-04-12 13:53"
     },
     "us-obtains-iranian-enriched-uranium-by-may-31": {
-      "p": 0.075,
-      "t": "2026-04-29 14:23"
+      "p": 0.095,
+      "t": "2026-04-30 14:26"
     },
     "counter-strike-g2-vs-gamerlegion-map-2-winner": {
       "p": 0.665,
@@ -1397,8 +1397,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-elise-stefanik-win-the-2028-republican-presidential-nomination": {
-      "p": 0.0065,
-      "t": "2026-04-28 14:29"
+      "p": 0.0095,
+      "t": "2026-04-30 14:26"
     },
     "will-bv-borussia-09-dortmund-win-on-2026-04-04": {
       "p": 0.345,
@@ -1410,11 +1410,11 @@
     },
     "will-wti-crude-oil-wti-hit-high-160-in-april": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-colombia-win-the-2026-fifa-world-cup": {
       "p": 0.0165,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-eric-trump-win-the-2028-us-presidential-election": {
       "p": 0.0065,
@@ -1425,8 +1425,8 @@
       "t": "2026-04-04 02:36"
     },
     "trump-announces-end-of-military-operations-against-iran-by-june-30th": {
-      "p": 0.595,
-      "t": "2026-04-29 14:23"
+      "p": 0.525,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-between-64-000-and-66-000-on-april-3": {
       "p": 0.0005,
@@ -1434,15 +1434,15 @@
     },
     "will-united-kingdom-win-eurovision-2026": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-wti-crude-oil-wti-hit-high-140-in-april": {
-      "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-wes-moore-win-the-2028-us-presidential-election": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "s-p-500-spx-opens-up-or-down-on-april-6": {
       "p": 0.53,
@@ -1482,15 +1482,15 @@
     },
     "will-tulsi-gabbard-win-the-2028-us-presidential-election": {
       "p": 0.0075,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-josh-shapiro-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0405,
       "t": "2026-04-29 14:23"
     },
     "will-greece-win-eurovision-2026": {
-      "p": 0.113,
-      "t": "2026-04-28 14:29"
+      "p": 0.1385,
+      "t": "2026-04-30 14:26"
     },
     "will-xavier-bertrand-win-the-2027-french-presidential-election": {
       "p": 0.0045,
@@ -1517,8 +1517,8 @@
       "t": "2026-04-04 13:21"
     },
     "will-bitcoin-dip-to-65-000-in-april": {
-      "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-josh-shapiro-win-the-2028-us-presidential-election": {
       "p": 0.021,
@@ -1530,15 +1530,15 @@
     },
     "will-josh-hawley-win-the-2028-republican-presidential-nomination": {
       "p": 0.0085,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-reza-pahlavi-enter-iran-by-april-30": {
       "p": 0.0015,
       "t": "2026-04-28 14:29"
     },
     "will-romania-win-eurovision-2026": {
-      "p": 0.0235,
-      "t": "2026-04-28 14:29"
+      "p": 0.0245,
+      "t": "2026-04-30 14:26"
     },
     "will-nikola-jokic-win-the-2025-2026-nba-mvp": {
       "p": 0.0185,
@@ -1549,8 +1549,8 @@
       "t": "2026-04-21 14:02"
     },
     "will-bitcoin-reach-80-000-in-april": {
-      "p": 0.175,
-      "t": "2026-04-29 14:23"
+      "p": 0.0065,
+      "t": "2026-04-30 14:26"
     },
     "will-stephen-smith-win-the-2028-us-presidential-election": {
       "p": 0.0095,
@@ -1578,15 +1578,15 @@
     },
     "will-barack-obama-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-tim-walz-win-the-2028-us-presidential-election": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-nicolas-dupont-aignan-win-the-2027-french-presidential-election": {
       "p": 0.0065,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "iran-x-israel-us-conflict-ends-by-april-7": {
       "p": 0.9995,
@@ -1597,12 +1597,12 @@
       "t": "2026-04-06 13:58"
     },
     "will-tucker-carlson-win-the-2028-us-presidential-election": {
-      "p": 0.0265,
-      "t": "2026-04-28 14:29"
+      "p": 0.0275,
+      "t": "2026-04-30 14:26"
     },
     "will-kristi-noem-win-the-2028-republican-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-60-000-on-april-4": {
       "p": 0.9995,
@@ -1625,8 +1625,8 @@
       "t": "2026-04-10 13:58"
     },
     "will-bitcoin-reach-85-000-in-april": {
-      "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-vivek-ramaswamy-win-the-2028-us-presidential-election": {
       "p": 0.0065,
@@ -1646,7 +1646,7 @@
     },
     "will-tarcisio-de-freitas-win-the-2026-brazilian-presidential-election": {
       "p": 0.0025,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-gil-vicente-fc-win-on-2026-04-03": {
       "p": 0.991,
@@ -1666,7 +1666,7 @@
     },
     "will-mrbeast-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0075,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "oxford-united-fc-vs-hull-city-afc-o-u-2-5": {
       "p": 0.0005,
@@ -1685,8 +1685,8 @@
       "t": "2026-04-25 13:48"
     },
     "will-crude-oil-cl-hit-high-200-by-end-of-june": {
-      "p": 0.0495,
-      "t": "2026-04-29 14:23"
+      "p": 0.0475,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-90-114-tweets-from-april-2-to-april-4-2026": {
       "p": 0.335,
@@ -1781,8 +1781,8 @@
       "t": "2026-04-04 02:36"
     },
     "will-bitcoin-reach-90-000-in-april": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.001,
+      "t": "2026-04-30 14:26"
     },
     "counter-strike-minlate-vs-ursa-map-1-winner": {
       "p": 0.9995,
@@ -1790,7 +1790,7 @@
     },
     "will-the-philadelphia-76ers-win-the-2026-nba-finals": {
       "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-saudi-arabia-strike-iran-by-april-30": {
       "p": 0.0195,
@@ -1801,12 +1801,12 @@
       "t": "2026-04-29 14:23"
     },
     "will-9-fed-rate-cuts-happen-in-2026": {
-      "p": 0.0035,
-      "t": "2026-04-27 14:27"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-wti-crude-oil-wti-hit-low-80-in-april": {
-      "p": 0.0235,
-      "t": "2026-04-28 14:29"
+      "p": 0.003,
+      "t": "2026-04-30 14:26"
     },
     "will-australia-win-eurovision-2026": {
       "p": 0.0675,
@@ -1822,7 +1822,7 @@
     },
     "will-glenn-youngkin-win-the-2028-us-presidential-election": {
       "p": 0.0085,
-      "t": "2026-04-27 14:27"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-xrp-be-above-1-30-on-april-3": {
       "p": 0.9995,
@@ -1834,11 +1834,11 @@
     },
     "will-microsoft-be-the-largest-company-in-the-world-by-market-cap-on-april-30": {
       "p": 0.0005,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "strait-of-hormuz-traffic-returns-to-normal-by-end-of-may": {
-      "p": 0.355,
-      "t": "2026-04-29 14:23"
+      "p": 0.265,
+      "t": "2026-04-30 14:26"
     },
     "will-amazon-be-the-largest-company-in-the-world-by-market-cap-on-april-30": {
       "p": 0.0005,
@@ -1865,16 +1865,16 @@
       "t": "2026-04-04 02:36"
     },
     "will-the-cleveland-cavaliers-win-the-2026-nba-finals": {
-      "p": 0.0395,
-      "t": "2026-04-29 14:23"
+      "p": 0.0385,
+      "t": "2026-04-30 14:26"
     },
     "will-11-fed-rate-cuts-happen-in-2026": {
       "p": 0.0025,
-      "t": "2026-04-26 14:06"
+      "t": "2026-04-30 14:26"
     },
     "will-michelle-obama-win-the-2028-democratic-presidential-nomination": {
-      "p": 0.0095,
-      "t": "2026-04-29 14:23"
+      "p": 0.0105,
+      "t": "2026-04-30 14:26"
     },
     "lol-t1-vs-hanwha-life-esports-bo3-lck-rounds-1-2": {
       "p": 0.495,
@@ -1901,8 +1901,8 @@
       "t": "2026-04-04 02:36"
     },
     "bab-el-mandeb-strait-effectively-closed-by-april-30": {
-      "p": 0.0055,
-      "t": "2026-04-29 14:23"
+      "p": 0.003,
+      "t": "2026-04-30 14:26"
     },
     "will-satoshi-move-any-bitcoin-in-2026": {
       "p": 0.0915,
@@ -1950,7 +1950,7 @@
     },
     "will-dwayne-the-rock-johnson-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0105,
-      "t": "2026-04-23 14:05"
+      "t": "2026-04-30 14:26"
     },
     "us-iran-nuclear-deal-by-april-30": {
       "p": 0.0105,
@@ -1958,15 +1958,15 @@
     },
     "will-donald-trump-jr-win-the-2028-us-presidential-election": {
       "p": 0.0085,
-      "t": "2026-04-27 14:27"
+      "t": "2026-04-30 14:26"
     },
     "baltimore-orioles-vs-pittsburgh-pirates": {
       "p": 0.525,
       "t": "2026-04-04 02:36"
     },
     "will-the-us-officially-declare-war-on-iran-by-april-30-2026": {
-      "p": 0.002,
-      "t": "2026-04-28 14:29"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-israel-strike-5-countries-in-2026": {
       "p": 0.301,
@@ -1993,8 +1993,8 @@
       "t": "2026-04-24 14:08"
     },
     "will-wti-crude-oil-wti-hit-low-70-in-april": {
-      "p": 0.014,
-      "t": "2026-04-27 14:27"
+      "p": 0.002,
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-reach-70-000-in-april": {
       "p": 0.915,
@@ -2013,8 +2013,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-eric-trump-win-the-2028-republican-presidential-nomination": {
-      "p": 0.0095,
-      "t": "2026-04-29 14:23"
+      "p": 0.0085,
+      "t": "2026-04-30 14:26"
     },
     "spread-raptors-14-5": {
       "p": 0.9995,
@@ -2065,8 +2065,8 @@
       "t": "2026-04-04 13:21"
     },
     "will-psg-win-the-2025-26-champions-league": {
-      "p": 0.315,
-      "t": "2026-04-29 14:23"
+      "p": 0.305,
+      "t": "2026-04-30 14:26"
     },
     "spread-rockets-17-5": {
       "p": 0.9995,
@@ -2090,7 +2090,7 @@
     },
     "will-eduardo-leite-win-the-2026-brazilian-presidential-election": {
       "p": 0.0015,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-ethereum-be-between-1-700-and-1-800-on-april-4": {
       "p": 0.001,
@@ -2225,8 +2225,8 @@
       "t": "2026-04-06 13:58"
     },
     "will-arsenal-win-the-2025-26-champions-league": {
-      "p": 0.265,
-      "t": "2026-04-29 14:23"
+      "p": 0.285,
+      "t": "2026-04-30 14:26"
     },
     "counter-strike-faze-vs-eyeballers-bo3-pgl-bucharest-group-stage": {
       "p": 0.575,
@@ -2238,7 +2238,7 @@
     },
     "will-liz-cheney-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "lol-weibo-gaming-vs-anyone-s-legend-bo3-lpl-group-ascend": {
       "p": 0.335,
@@ -2281,16 +2281,16 @@
       "t": "2026-04-04 13:21"
     },
     "will-michelle-bolsonaro-win-the-2026-brazilian-presidential-election": {
-      "p": 0.004,
-      "t": "2026-04-28 14:29"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-wuthering-heights-be-the-top-grossing-movie-of-2026": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-washington-nationals-win-the-2026-world-series": {
       "p": 0.0045,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "bitcoin-up-or-down-on-april-4": {
       "p": 0.565,
@@ -2317,8 +2317,8 @@
       "t": "2026-04-05 13:45"
     },
     "will-ethereum-reach-2-800-in-april": {
-      "p": 0.0035,
-      "t": "2026-04-28 14:29"
+      "p": 0.002,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-420-439-tweets-from-march-31-to-april-7-2026": {
       "p": 0.0005,
@@ -2333,8 +2333,8 @@
       "t": "2026-04-07 13:46"
     },
     "kharg-island-no-longer-under-iranian-control-by-june-30": {
-      "p": 0.145,
-      "t": "2026-04-29 14:23"
+      "p": 0.135,
+      "t": "2026-04-30 14:26"
     },
     "pete-hegseth-out-as-secretary-of-defense-by-april-30": {
       "p": 0.0375,
@@ -2346,7 +2346,7 @@
     },
     "iran-leadership-change-by-april-30": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-tigres-de-la-uanl-win-on-2026-04-03": {
       "p": 0.0005,
@@ -2374,7 +2374,7 @@
     },
     "will-saudi-aramco-be-the-largest-company-in-the-world-by-market-cap-on-april-30": {
       "p": 0.0005,
-      "t": "2026-04-20 14:14"
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-340-359-tweets-from-march-31-to-april-7-2026": {
       "p": 0.0005,
@@ -2422,7 +2422,7 @@
     },
     "will-alfonso-l-pez-chau-win-the-2026-peruvian-presidential-election": {
       "p": 0.0005,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-mojtaba-khamenei-be-head-of-state-in-iran-end-of-2026": {
       "p": 0.6225,
@@ -2442,11 +2442,11 @@
     },
     "will-zohran-mamdani-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-kevin-warsh-be-confirmed-as-fed-chair": {
-      "p": 0.9875,
-      "t": "2026-04-29 14:23"
+      "p": 0.993,
+      "t": "2026-04-30 14:26"
     },
     "canadiens-vs-devils": {
       "p": 0.9995,
@@ -2465,20 +2465,20 @@
       "t": "2026-04-04 13:21"
     },
     "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections": {
-      "p": 0.86,
-      "t": "2026-04-17 14:03"
+      "p": 0.845,
+      "t": "2026-04-30 14:26"
     },
     "will-jorge-nieto-win-the-2026-peruvian-presidential-election": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-fabiano-caruana-win-the-2026-fide-candidates-tournament": {
       "p": 0.0095,
       "t": "2026-04-09 13:48"
     },
     "will-roberto-s-nchez-palomino-win-the-2026-peruvian-presidential-election": {
-      "p": 0.3285,
-      "t": "2026-04-29 14:23"
+      "p": 0.331,
+      "t": "2026-04-30 14:26"
     },
     "will-spacex-ipo-by-april-30-2026": {
       "p": 0.0045,
@@ -2506,7 +2506,7 @@
     },
     "will-chris-murphy-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-deepseek-have-the-best-ai-model-at-the-end-of-april-2026": {
       "p": 0.0005,
@@ -2517,12 +2517,12 @@
       "t": "2026-04-04 13:21"
     },
     "megaeth-market-cap-fdv-2b-one-day-after-launch": {
-      "p": 0.285,
-      "t": "2026-04-29 14:23"
+      "p": 0.395,
+      "t": "2026-04-30 14:26"
     },
     "will-michelle-bowman-be-confirmed-as-fed-chair": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.002,
+      "t": "2026-04-30 14:26"
     },
     "will-ricardo-belmont-win-the-2026-peruvian-presidential-election": {
       "p": 0.0005,
@@ -2586,7 +2586,7 @@
     },
     "will-chelsea-clinton-win-the-2028-democratic-presidential-nomination": {
       "p": 0.0095,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-david-lisnard-win-the-2027-french-presidential-election": {
       "p": 0.077,
@@ -2597,8 +2597,8 @@
       "t": "2026-04-04 13:21"
     },
     "will-no-fed-rate-cuts-happen-in-2026": {
-      "p": 0.4695,
-      "t": "2026-04-29 14:23"
+      "p": 0.576,
+      "t": "2026-04-30 14:26"
     },
     "flames-vs-ducks": {
       "p": 0.9995,
@@ -2694,7 +2694,7 @@
     },
     "will-pete-hegseth-win-the-2028-republican-presidential-nomination": {
       "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "counter-strike-3dmax-vs-voca-bo3-pgl-bucharest-group-stage": {
       "p": 0.825,
@@ -2801,8 +2801,8 @@
       "t": "2026-04-05 13:45"
     },
     "will-matt-gaetz-win-the-2028-republican-presidential-nomination": {
-      "p": 0.007,
-      "t": "2026-04-29 14:23"
+      "p": 0.0075,
+      "t": "2026-04-30 14:26"
     },
     "will-mrbeast-s-next-video-get-between-40-and-45-million-views-on-day-1": {
       "p": 0.016,
@@ -2817,8 +2817,8 @@
       "t": "2026-04-05 13:45"
     },
     "will-robert-f-kennedy-jr-win-the-2028-republican-presidential-nomination": {
-      "p": 0.0085,
-      "t": "2026-04-29 14:23"
+      "p": 0.0115,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-wellington-be-15-c-on-april-5": {
       "p": 0.0005,
@@ -2845,8 +2845,8 @@
       "t": "2026-04-05 13:45"
     },
     "trump-out-as-president-by-june-30": {
-      "p": 0.0405,
-      "t": "2026-04-29 14:23"
+      "p": 0.039,
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-dip-to-66-000-on-april-4": {
       "p": 0.0005,
@@ -2865,8 +2865,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-the-new-york-knicks-win-the-2026-nba-finals": {
-      "p": 0.0315,
-      "t": "2026-04-29 14:23"
+      "p": 0.0365,
+      "t": "2026-04-30 14:26"
     },
     "will-los-angeles-galaxy-win-on-2026-04-04": {
       "p": 0.0005,
@@ -2878,15 +2878,15 @@
     },
     "will-bayern-munich-win-the-2025-26-champions-league": {
       "p": 0.315,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-derik-queen-win-the-2025-26-nba-rookie-of-the-year-award": {
       "p": 0.0005,
       "t": "2026-04-08 13:46"
     },
     "lol-top-esports-vs-anyone-s-legend-bo3-lpl-group-ascend": {
-      "p": 0.175,
-      "t": "2026-04-05 13:45"
+      "p": 0.485,
+      "t": "2026-04-30 14:26"
     },
     "will-trump-declare-war-on-iran-by-april-30-2026": {
       "p": 0.0095,
@@ -2913,8 +2913,8 @@
       "t": "2026-04-05 13:45"
     },
     "will-the-fed-decrease-interest-rates-by-25-bps-after-the-june-2026-meeting": {
-      "p": 0.0425,
-      "t": "2026-04-29 14:23"
+      "p": 0.0245,
+      "t": "2026-04-30 14:26"
     },
     "will-nashville-sc-win-on-2026-04-04": {
       "p": 0.0005,
@@ -2933,8 +2933,8 @@
       "t": "2026-04-08 13:46"
     },
     "will-iran-strike-bahrain-by-april-30-2026": {
-      "p": 0.145,
-      "t": "2026-04-28 14:29"
+      "p": 0.0335,
+      "t": "2026-04-30 14:26"
     },
     "bitcoin-up-or-down-april-5-12am-et": {
       "p": 0.0005,
@@ -3005,8 +3005,8 @@
       "t": "2026-04-08 13:46"
     },
     "will-lewis-hamilton-be-the-2026-f1-drivers-champion": {
-      "p": 0.0435,
-      "t": "2026-04-29 14:23"
+      "p": 0.0485,
+      "t": "2026-04-30 14:26"
     },
     "spread-fc-bayern-m-nchen-2-5": {
       "p": 0.13,
@@ -3101,8 +3101,8 @@
       "t": "2026-04-09 13:48"
     },
     "will-the-houston-rockets-win-the-2026-nba-finals": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-club-atl-tico-de-madrid-win-on-2026-04-08": {
       "p": 0.175,
@@ -3189,8 +3189,8 @@
       "t": "2026-04-09 13:48"
     },
     "will-crude-oil-cl-hit-high-150-by-end-of-june": {
-      "p": 0.115,
-      "t": "2026-04-29 14:23"
+      "p": 0.165,
+      "t": "2026-04-30 14:26"
     },
     "will-sweden-win-eurovision-2026": {
       "p": 0.0285,
@@ -3229,8 +3229,8 @@
       "t": "2026-04-05 13:45"
     },
     "iran-leadership-change-by-december-31": {
-      "p": 0.34,
-      "t": "2026-04-21 14:02"
+      "p": 0.405,
+      "t": "2026-04-30 14:26"
     },
     "will-another-country-conduct-military-action-against-iran-by-april-30-2026": {
       "p": 0.0095,
@@ -3242,7 +3242,7 @@
     },
     "will-lithuania-win-eurovision-2026": {
       "p": 0.0035,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-between-60-000-and-62-000-on-april-5": {
       "p": 0.0005,
@@ -3290,7 +3290,7 @@
     },
     "will-andy-beshear-win-the-2028-us-presidential-election": {
       "p": 0.0135,
-      "t": "2026-04-27 14:27"
+      "t": "2026-04-30 14:26"
     },
     "spread-clippers-13-5": {
       "p": 0.9995,
@@ -3449,8 +3449,8 @@
       "t": "2026-04-07 13:46"
     },
     "knicks-vs-hawks": {
-      "p": 0.535,
-      "t": "2026-04-25 13:48"
+      "p": 0.555,
+      "t": "2026-04-30 14:26"
     },
     "will-marco-rubio-win-the-2028-republican-presidential-nomination": {
       "p": 0.2085,
@@ -3481,8 +3481,8 @@
       "t": "2026-04-06 13:58"
     },
     "will-there-be-no-change-in-fed-interest-rates-after-the-june-2026-meeting": {
-      "p": 0.935,
-      "t": "2026-04-29 14:23"
+      "p": 0.955,
+      "t": "2026-04-30 14:26"
     },
     "wuning-alexandr-binda-vs-kaichi-uchida": {
       "p": 0.145,
@@ -3497,8 +3497,8 @@
       "t": "2026-04-06 13:58"
     },
     "iran-leadership-change-by-may-31": {
-      "p": 0.135,
-      "t": "2026-04-29 14:23"
+      "p": 0.125,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-shanghai-be-27-c-or-higher-on-april-6": {
       "p": 0.9995,
@@ -3510,7 +3510,7 @@
     },
     "will-thomas-massie-win-the-2028-us-presidential-election": {
       "p": 0.0095,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-ethereum-reach-2-150-on-april-5": {
       "p": 0.0005,
@@ -3598,7 +3598,7 @@
     },
     "will-zohran-mamdani-win-the-2028-us-presidential-election": {
       "p": 0.0075,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "lol-bnk-fearx-youth-vs-gen-g-global-academy-game-2-winner": {
       "p": 0.575,
@@ -3613,8 +3613,8 @@
       "t": "2026-04-10 13:58"
     },
     "will-crude-oil-cl-hit-high-175-by-end-of-june": {
-      "p": 0.075,
-      "t": "2026-04-29 14:23"
+      "p": 0.085,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-shanghai-be-26-c-on-april-6": {
       "p": 0.0005,
@@ -3633,8 +3633,8 @@
       "t": "2026-04-06 13:58"
     },
     "iran-leadership-change-by-june-30": {
-      "p": 0.225,
-      "t": "2026-04-27 14:27"
+      "p": 0.195,
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-hit-1m-before-gta-vi": {
       "p": 0.4875,
@@ -3685,16 +3685,16 @@
       "t": "2026-04-07 13:46"
     },
     "will-the-fed-increase-interest-rates-by-50-bps-after-the-june-2026-meeting": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-the-fed-increase-interest-rates-by-25-bps-after-the-june-2026-meeting": {
-      "p": 0.0175,
-      "t": "2026-04-29 14:23"
+      "p": 0.0125,
+      "t": "2026-04-30 14:26"
     },
     "will-reza-pahlavi-enter-iran-by-may-31": {
       "p": 0.0255,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-between-64-000-and-66-000-on-april-6": {
       "p": 0.008,
@@ -3733,8 +3733,8 @@
       "t": "2026-04-06 13:58"
     },
     "kharg-island-no-longer-under-iranian-control-by-may-31": {
-      "p": 0.105,
-      "t": "2026-04-29 14:23"
+      "p": 0.115,
+      "t": "2026-04-30 14:26"
     },
     "lightning-vs-sabres": {
       "p": 0.525,
@@ -3769,8 +3769,8 @@
       "t": "2026-04-06 13:58"
     },
     "will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-elec": {
-      "p": 0.605,
-      "t": "2026-04-29 14:23"
+      "p": 0.625,
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-reach-75-000-in-april": {
       "p": 0.875,
@@ -3825,12 +3825,12 @@
       "t": "2026-04-17 14:03"
     },
     "will-bitcoin-dip-to-55-000-by-december-31-2026": {
-      "p": 0.525,
-      "t": "2026-04-29 14:23"
+      "p": 0.535,
+      "t": "2026-04-30 14:26"
     },
     "will-the-fed-decrease-interest-rates-by-50-bps-after-the-june-2026-meeting": {
-      "p": 0.0085,
-      "t": "2026-04-29 14:23"
+      "p": 0.0075,
+      "t": "2026-04-30 14:26"
     },
     "us-iran-nuclear-deal-before-2027": {
       "p": 0.685,
@@ -4457,8 +4457,8 @@
       "t": "2026-04-07 13:46"
     },
     "will-wti-crude-oil-wti-hit-low-90-in-april": {
-      "p": 0.07,
-      "t": "2026-04-29 14:23"
+      "p": 0.0175,
+      "t": "2026-04-30 14:26"
     },
     "will-mrbeast-s-next-video-get-between-60-and-62-million-views-on-day-3": {
       "p": 0.07,
@@ -4469,8 +4469,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-romeu-zema-win-the-2026-brazilian-presidential-election": {
-      "p": 0.0815,
-      "t": "2026-04-29 14:23"
+      "p": 0.0695,
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-dip-to-62-000-april-6-12": {
       "p": 0.125,
@@ -4517,8 +4517,8 @@
       "t": "2026-04-25 13:48"
     },
     "kash-patel-out-by-april-30": {
-      "p": 0.034,
-      "t": "2026-04-29 14:23"
+      "p": 0.0105,
+      "t": "2026-04-30 14:26"
     },
     "counter-strike-fokus-vs-bc-game-esports-bo3-pgl-bucharest-group-stage": {
       "p": 0.565,
@@ -4649,8 +4649,8 @@
       "t": "2026-04-08 13:46"
     },
     "will-aldo-rebelo-win-the-2026-brazilian-presidential-election": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "thunder-vs-clippers": {
       "p": 0.9995,
@@ -4661,8 +4661,8 @@
       "t": "2026-04-08 13:46"
     },
     "will-the-kharg-island-oil-terminal-be-hit-by-april-30": {
-      "p": 0.0305,
-      "t": "2026-04-29 14:23"
+      "p": 0.0225,
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-dip-to-61-000-on-april-7": {
       "p": 0.0005,
@@ -4733,8 +4733,8 @@
       "t": "2026-04-08 13:46"
     },
     "xi-jinping-out-before-2027": {
-      "p": 0.082,
-      "t": "2026-04-28 14:29"
+      "p": 0.0785,
+      "t": "2026-04-30 14:26"
     },
     "rockets-vs-suns-o-u-221-5": {
       "p": 0.845,
@@ -4842,7 +4842,7 @@
     },
     "will-ethereum-reach-3-000-in-april": {
       "p": 0.0015,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-ben-griffin-win-the-2026-masters-tournament": {
       "p": 0.0025,
@@ -4949,8 +4949,8 @@
       "t": "2026-04-08 13:46"
     },
     "will-wti-crude-oil-wti-hit-low-60-in-april": {
-      "p": 0.013,
-      "t": "2026-04-24 14:08"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-russell-henley-win-the-2026-masters-tournament": {
       "p": 0.0045,
@@ -4962,7 +4962,7 @@
     },
     "will-jeon-hyun-heui-win-the-2026-seoul-mayoral-election": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-400-419-tweets-from-april-3-to-april-10-2026": {
       "p": 0.0015,
@@ -5081,8 +5081,8 @@
       "t": "2026-04-08 13:46"
     },
     "will-bitcoin-hit-60k-or-80k-first": {
-      "p": 0.205,
-      "t": "2026-04-29 14:23"
+      "p": 0.275,
+      "t": "2026-04-30 14:26"
     },
     "atlanta-braves-vs-los-angeles-angels-o-u-8-5": {
       "p": 0.9995,
@@ -5138,7 +5138,7 @@
     },
     "will-luxembourg-win-eurovision-2026": {
       "p": 0.0045,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "iran-agrees-to-end-enrichment-of-uranium-by-june-30": {
       "p": 0.265,
@@ -5157,8 +5157,8 @@
       "t": "2026-04-08 13:46"
     },
     "trump-announces-end-of-military-operations-against-iran-by-may-31st": {
-      "p": 0.345,
-      "t": "2026-04-29 14:23"
+      "p": 0.295,
+      "t": "2026-04-30 14:26"
     },
     "pete-hegseth-impeached-by-june-30": {
       "p": 0.065,
@@ -5201,8 +5201,8 @@
       "t": "2026-04-09 13:48"
     },
     "will-ivanka-trump-win-the-2028-republican-presidential-nomination": {
-      "p": 0.0115,
-      "t": "2026-04-27 14:27"
+      "p": 0.0105,
+      "t": "2026-04-30 14:26"
     },
     "will-club-cerro-porte-o-win-on-2026-04-08": {
       "p": 0.0005,
@@ -5338,7 +5338,7 @@
     },
     "will-dan-caine-be-the-leader-of-venezuela-end-of-2026": {
       "p": 0.0005,
-      "t": "2026-04-27 14:27"
+      "t": "2026-04-30 14:26"
     },
     "jd-vance-diplomatic-meeting-with-iran-by-april-30": {
       "p": 0.988,
@@ -5517,8 +5517,8 @@
       "t": "2026-04-09 13:48"
     },
     "will-the-chicago-white-sox-win-the-2026-world-series": {
-      "p": 0.0055,
-      "t": "2026-04-25 13:48"
+      "p": 0.0045,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-greater-than-76-000-on-april-9": {
       "p": 0.0015,
@@ -5581,16 +5581,16 @@
       "t": "2026-04-09 13:48"
     },
     "will-the-republican-party-control-the-house-after-the-2026-midterm-elections": {
-      "p": 0.135,
-      "t": "2026-04-09 13:48"
+      "p": 0.155,
+      "t": "2026-04-30 14:26"
     },
     "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-": {
       "p": 0.9985,
       "t": "2026-04-14 14:00"
     },
     "iran-agrees-to-surrender-enriched-uranium-stockpile-by-april-30-2026": {
-      "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "valorant-team-liquid-vs-team-heretics-bo3-vct-emea-group-alpha": {
       "p": 0.635,
@@ -5850,7 +5850,7 @@
     },
     "will-park-ju-min-win-the-2026-seoul-mayoral-election": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "wuning-fajing-sun-vs-justin-boulais": {
       "p": 0.9995,
@@ -5969,8 +5969,8 @@
       "t": "2026-04-11 13:24"
     },
     "russia-x-ukraine-ceasefire-by-may-31-2026": {
-      "p": 0.0335,
-      "t": "2026-04-29 14:23"
+      "p": 0.0495,
+      "t": "2026-04-30 14:26"
     },
     "heat-vs-wizards": {
       "p": 0.925,
@@ -6045,8 +6045,8 @@
       "t": "2026-04-10 13:58"
     },
     "will-jair-bolsonaro-win-the-2026-brazilian-presidential-election": {
-      "p": 0.0075,
-      "t": "2026-04-10 13:58"
+      "p": 0.0055,
+      "t": "2026-04-30 14:26"
     },
     "will-trump-and-putin-meet-next-in-belarus": {
       "p": 0.011,
@@ -6069,8 +6069,8 @@
       "t": "2026-04-10 13:58"
     },
     "us-x-iran-permanent-peace-deal-by-april-30-2026": {
-      "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-a-dozen-eggs-cost-between-2-25-2-50-in-march": {
       "p": 0.825,
@@ -6129,8 +6129,8 @@
       "t": "2026-04-10 13:58"
     },
     "will-ruben-gallego-win-the-2028-democratic-presidential-nomination": {
-      "p": 0.0065,
-      "t": "2026-04-29 14:23"
+      "p": 0.0075,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-ethereum-be-above-2-400-on-april-10": {
       "p": 0.005,
@@ -6141,8 +6141,8 @@
       "t": "2026-04-22 14:00"
     },
     "will-crude-oil-cl-hit-high-115-by-end-of-june": {
-      "p": 0.6235,
-      "t": "2026-04-10 13:58"
+      "p": 0.862,
+      "t": "2026-04-30 14:26"
     },
     "will-west-ham-united-fc-win-on-2026-04-10": {
       "p": 0.525,
@@ -6493,8 +6493,8 @@
       "t": "2026-04-11 13:24"
     },
     "us-x-iran-permanent-peace-deal-by-may-31-2026": {
-      "p": 0.295,
-      "t": "2026-04-29 14:23"
+      "p": 0.235,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-360-379-tweets-from-april-7-to-april-14-2026": {
       "p": 0.0075,
@@ -6541,8 +6541,8 @@
       "t": "2026-04-11 13:24"
     },
     "will-alphabet-be-the-largest-company-in-the-world-by-market-cap-on-april-30": {
-      "p": 0.0005,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-500-519-tweets-from-april-10-to-april-17-2026": {
       "p": 0.0005,
@@ -6617,8 +6617,8 @@
       "t": "2026-04-13 14:14"
     },
     "will-fran-ois-ruffin-win-the-2027-french-presidential-election": {
-      "p": 0.0085,
-      "t": "2026-04-22 14:00"
+      "p": 0.0065,
+      "t": "2026-04-30 14:26"
     },
     "military-action-against-iran-ends-by-april-30-2026": {
       "p": 0.944,
@@ -6633,12 +6633,12 @@
       "t": "2026-04-11 13:24"
     },
     "will-tesla-be-the-largest-company-in-the-world-by-market-cap-on-june-30": {
-      "p": 0.003,
-      "t": "2026-04-28 14:29"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-tom-brady-win-the-2028-republican-presidential-nomination": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "israel-x-lebanon-diplomatic-meeting-by-april-12-2026": {
       "p": 0.0245,
@@ -6654,7 +6654,7 @@
     },
     "will-greg-abbott-win-the-2028-republican-presidential-nomination": {
       "p": 0.0085,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "will-fidesz-kdnp-win-the-most-national-list-votes-in-the-2026-hungarian-parliame": {
       "p": 0.0015,
@@ -6914,7 +6914,7 @@
     },
     "will-jamie-dimon-win-the-2028-us-presidential-election": {
       "p": 0.0085,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-reach-75-000-on-april-11": {
       "p": 0.0005,
@@ -7021,8 +7021,8 @@
       "t": "2026-04-12 13:53"
     },
     "will-trump-agree-to-iranian-enrichment-of-uranium-in-april": {
-      "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-real-madrid-cf-win-on-2026-04-15": {
       "p": 0.195,
@@ -7525,8 +7525,8 @@
       "t": "2026-04-13 14:14"
     },
     "will-wti-crude-oil-wti-hit-high-115-in-april": {
-      "p": 0.0105,
-      "t": "2026-04-29 14:23"
+      "p": 0.1795,
+      "t": "2026-04-30 14:26"
     },
     "will-trump-name-leo-xiv-or-pope-in-april": {
       "p": 0.9995,
@@ -7561,8 +7561,8 @@
       "t": "2026-04-23 14:05"
     },
     "will-the-st-louis-cardinals-win-the-2026-world-series": {
-      "p": 0.0055,
-      "t": "2026-04-26 14:06"
+      "p": 0.0045,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-400-419-tweets-from-april-10-to-april-17-2026": {
       "p": 0.0015,
@@ -7661,8 +7661,8 @@
       "t": "2026-04-14 14:00"
     },
     "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-horm": {
-      "p": 0.295,
-      "t": "2026-04-29 14:23"
+      "p": 0.435,
+      "t": "2026-04-30 14:26"
     },
     "genius-fdv-above-100m-one-day-after-launch": {
       "p": 0.9985,
@@ -7857,8 +7857,8 @@
       "t": "2026-04-14 14:00"
     },
     "us-x-iran-permanent-peace-deal-by-june-30-2026": {
-      "p": 0.435,
-      "t": "2026-04-29 14:23"
+      "p": 0.375,
+      "t": "2026-04-30 14:26"
     },
     "will-z-ai-have-the-top-ai-model-at-the-end-of-june-2026": {
       "p": 0.026,
@@ -7942,7 +7942,7 @@
     },
     "will-laurent-wauquiez-win-the-2027-french-presidential-election": {
       "p": 0.0075,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-chad-bianco-win-the-california-governor-election-in-2026": {
       "p": 0.0245,
@@ -7973,8 +7973,8 @@
       "t": "2026-04-14 14:00"
     },
     "will-wti-crude-oil-wti-hit-low-85-in-april": {
-      "p": 0.13,
-      "t": "2026-04-27 14:27"
+      "p": 0.0035,
+      "t": "2026-04-30 14:26"
     },
     "will-ricardo-belmont-finish-in-second-place-in-the-first-round-of-the-2026-peruv": {
       "p": 0.0025,
@@ -7989,8 +7989,8 @@
       "t": "2026-04-14 14:00"
     },
     "will-megaeth-launch-a-token-by-april-30-2026": {
-      "p": 0.9735,
-      "t": "2026-04-29 14:23"
+      "p": 0.9985,
+      "t": "2026-04-30 14:26"
     },
     "will-solana-dip-to-60-in-april": {
       "p": 0.045,
@@ -8297,8 +8297,8 @@
       "t": "2026-04-15 14:00"
     },
     "us-x-iran-diplomatic-meeting-by-april-30-2026": {
-      "p": 0.0115,
-      "t": "2026-04-29 14:23"
+      "p": 0.0065,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-520-539-tweets-from-april-14-to-april-21-2026": {
       "p": 0.0005,
@@ -8593,8 +8593,8 @@
       "t": "2026-04-16 14:01"
     },
     "will-donald-trump-have-a-diplomatic-meeting-with-iran-by-april-30": {
-      "p": 0.011,
-      "t": "2026-04-26 14:06"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-jessica-pegula-win-the-2026-women-s-french-open": {
       "p": 0.0215,
@@ -8693,8 +8693,8 @@
       "t": "2026-04-16 14:01"
     },
     "megaeth-market-cap-fdv-1b-one-day-after-launch": {
-      "p": 0.885,
-      "t": "2026-04-29 14:23"
+      "p": 0.9535,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-ethereum-be-above-2-000-on-april-16": {
       "p": 0.9995,
@@ -8761,8 +8761,8 @@
       "t": "2026-04-16 14:01"
     },
     "will-alphabet-be-the-largest-company-in-the-world-by-market-cap-on-june-30": {
-      "p": 0.036,
-      "t": "2026-04-29 14:23"
+      "p": 0.077,
+      "t": "2026-04-30 14:26"
     },
     "will-netflix-nflx-close-at-80-90-on-the-final-day-of-trading-of-the-week-of-apr-": {
       "p": 0.0135,
@@ -8777,12 +8777,12 @@
       "t": "2026-04-16 14:01"
     },
     "timberwolves-vs-nuggets": {
-      "p": 0.195,
-      "t": "2026-04-27 14:27"
+      "p": 0.325,
+      "t": "2026-04-30 14:26"
     },
     "will-amazon-be-the-largest-company-in-the-world-by-market-cap-on-june-30": {
       "p": 0.0035,
-      "t": "2026-04-28 14:29"
+      "t": "2026-04-30 14:26"
     },
     "indian-premier-league-mumbai-indians-vs-punjab-kings": {
       "p": 0.545,
@@ -8873,8 +8873,8 @@
       "t": "2026-04-17 14:03"
     },
     "starmer-out-by-april-30-2026": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "busan-yunchaokete-bu-vs-adam-walton": {
       "p": 0.9995,
@@ -8993,8 +8993,8 @@
       "t": "2026-04-17 14:03"
     },
     "will-ethereum-dip-to-2-000-in-april": {
-      "p": 0.003,
-      "t": "2026-04-29 14:23"
+      "p": 0.006,
+      "t": "2026-04-30 14:26"
     },
     "will-juan-pablo-velasco-win-the-2026-santa-cruz-gubernatorial-election": {
       "p": 0.788,
@@ -9025,8 +9025,8 @@
       "t": "2026-04-17 14:03"
     },
     "starmer-out-by-june-30-2026": {
-      "p": 0.385,
-      "t": "2026-04-29 14:23"
+      "p": 0.415,
+      "t": "2026-04-30 14:26"
     },
     "will-south-america-win-the-2026-fifa-world-cup": {
       "p": 0.215,
@@ -9173,8 +9173,8 @@
       "t": "2026-04-18 13:41"
     },
     "iran-agrees-to-surrender-enriched-uranium-stockpile-by-june-30-2026": {
-      "p": 0.215,
-      "t": "2026-04-29 14:23"
+      "p": 0.205,
+      "t": "2026-04-30 14:26"
     },
     "canucks-vs-oilers-o-u-6-5": {
       "p": 0.9995,
@@ -9233,8 +9233,8 @@
       "t": "2026-04-17 14:03"
     },
     "will-russia-invade-a-nato-country-by-june-30-2026": {
-      "p": 0.0385,
-      "t": "2026-04-17 14:03"
+      "p": 0.0285,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-buy-ryanair": {
       "p": 0.01,
@@ -9377,8 +9377,8 @@
       "t": "2026-04-18 13:41"
     },
     "us-obtains-iranian-enriched-uranium-by-april-30": {
-      "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "as-roma-vs-atalanta-bc-o-u-2-5": {
       "p": 0.515,
@@ -9421,8 +9421,8 @@
       "t": "2026-04-18 13:41"
     },
     "will-trump-agree-to-iranian-transit-fees-in-the-strait-of-hormuz-in-april": {
-      "p": 0.008,
-      "t": "2026-04-29 14:23"
+      "p": 0.005,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-68-000-on-april-18": {
       "p": 0.9995,
@@ -9441,8 +9441,8 @@
       "t": "2026-04-18 13:41"
     },
     "76ers-vs-celtics": {
-      "p": 0.175,
-      "t": "2026-04-28 14:29"
+      "p": 0.375,
+      "t": "2026-04-30 14:26"
     },
     "will-ethereum-dip-to-2-200-on-april-17": {
       "p": 0.0005,
@@ -9541,8 +9541,8 @@
       "t": "2026-04-18 13:41"
     },
     "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june": {
-      "p": 0.595,
-      "t": "2026-04-29 14:23"
+      "p": 0.485,
+      "t": "2026-04-30 14:26"
     },
     "ufc-fight-night-gilbert-burns-vs-mike-malott-welterweight-main-card": {
       "p": 0.0005,
@@ -9621,8 +9621,8 @@
       "t": "2026-04-22 14:00"
     },
     "megaeth-market-cap-fdv-800m-one-day-after-launch": {
-      "p": 0.935,
-      "t": "2026-04-29 14:23"
+      "p": 0.977,
+      "t": "2026-04-30 14:26"
     },
     "warriors-vs-suns-o-u-220-5": {
       "p": 0.0005,
@@ -9633,8 +9633,8 @@
       "t": "2026-04-25 13:48"
     },
     "will-wti-crude-oil-wti-hit-high-125-in-april": {
-      "p": 0.0105,
-      "t": "2026-04-29 14:23"
+      "p": 0.0145,
+      "t": "2026-04-30 14:26"
     },
     "fisa-section-702-reauthorized-before-it-expires": {
       "p": 0.916,
@@ -9661,8 +9661,8 @@
       "t": "2026-04-18 13:41"
     },
     "will-the-montreal-canadiens-win-the-2026-nhl-stanley-cup": {
-      "p": 0.0285,
-      "t": "2026-04-29 14:23"
+      "p": 0.0665,
+      "t": "2026-04-30 14:26"
     },
     "will-google-have-the-best-ai-model-at-the-end-of-april-2026": {
       "p": 0.0015,
@@ -9733,8 +9733,8 @@
       "t": "2026-04-18 13:41"
     },
     "megaeth-market-cap-fdv-600m-one-day-after-launch": {
-      "p": 0.9775,
-      "t": "2026-04-29 14:23"
+      "p": 0.979,
+      "t": "2026-04-30 14:26"
     },
     "will-the-boston-bruins-win-the-2026-nhl-stanley-cup": {
       "p": 0.0045,
@@ -9781,8 +9781,8 @@
       "t": "2026-04-19 13:58"
     },
     "will-the-us-confirm-that-aliens-exist-by-april-30": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-80-000-on-april-19": {
       "p": 0.0015,
@@ -10073,8 +10073,8 @@
       "t": "2026-04-22 14:00"
     },
     "will-fl-vio-bolsonaro-win-the-2026-brazilian-presidential-election": {
-      "p": 0.3915,
-      "t": "2026-04-29 14:23"
+      "p": 0.4315,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-ethereum-be-between-2-000-and-2-100-on-april-19": {
       "p": 0.003,
@@ -10218,7 +10218,7 @@
     },
     "utah-vs-golden-knights": {
       "p": 0.0005,
-      "t": "2026-04-20 14:14"
+      "t": "2026-04-30 14:26"
     },
     "will-j-d-vance-attend-the-next-us-x-iran-diplomatic-meeting": {
       "p": 0.497,
@@ -10325,8 +10325,8 @@
       "t": "2026-04-20 14:14"
     },
     "nba-playoffs-who-will-win-series-pistons-vs-magic": {
-      "p": 0.285,
-      "t": "2026-04-29 14:23"
+      "p": 0.435,
+      "t": "2026-04-30 14:26"
     },
     "dota-2-team-liquid-vs-vici-gaming-bo3-pgl-wallachia-group-stage": {
       "p": 0.645,
@@ -10409,8 +10409,8 @@
       "t": "2026-04-20 14:14"
     },
     "will-trump-visit-pakistan-by-april-30": {
-      "p": 0.005,
-      "t": "2026-04-29 14:23"
+      "p": 0.001,
+      "t": "2026-04-30 14:26"
     },
     "epstein-client-list-released-by-june-30": {
       "p": 0.0595,
@@ -10497,8 +10497,8 @@
       "t": "2026-04-20 14:14"
     },
     "spread-golden-knights-1-5": {
-      "p": 0.9995,
-      "t": "2026-04-20 14:14"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-xrp-be-above-0-80-on-april-20": {
       "p": 0.9985,
@@ -10517,8 +10517,8 @@
       "t": "2026-04-20 14:14"
     },
     "will-ethereum-reach-2-600-in-april": {
-      "p": 0.055,
-      "t": "2026-04-27 14:27"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "microstrategy-announces-1000-btc-purchase-april-14-20": {
       "p": 0.986,
@@ -10678,7 +10678,7 @@
     },
     "will-juan-daniel-oviedo-win-the-2026-colombian-presidential-election": {
       "p": 0.0015,
-      "t": "2026-04-27 14:27"
+      "t": "2026-04-30 14:26"
     },
     "timberwolves-vs-nuggets-o-u-233-5": {
       "p": 0.0005,
@@ -10973,12 +10973,12 @@
       "t": "2026-04-21 14:02"
     },
     "will-claudia-l-pez-win-the-2026-colombian-presidential-election": {
-      "p": 0.0015,
-      "t": "2026-04-26 14:06"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "israel-x-hezbollah-ceasefire-extended-by-april-26-2026": {
-      "p": 0.9975,
-      "t": "2026-04-29 14:23"
+      "p": 0.9965,
+      "t": "2026-04-30 14:26"
     },
     "henry-cavill-announced-as-next-james-bond": {
       "p": 0.0215,
@@ -11001,8 +11001,8 @@
       "t": "2026-04-21 14:02"
     },
     "will-trump-visit-china-by-may-15": {
-      "p": 0.705,
-      "t": "2026-04-28 14:29"
+      "p": 0.665,
+      "t": "2026-04-30 14:26"
     },
     "israel-x-iran-permanent-peace-deal-by-april-22-2026": {
       "p": 0.027,
@@ -11033,8 +11033,8 @@
       "t": "2026-04-21 14:02"
     },
     "us-x-iran-ceasefire-extended-by-april-22-2026": {
-      "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-san-francisco-be-between-64-65-f-on-april-20": {
       "p": 0.9995,
@@ -11062,11 +11062,11 @@
     },
     "will-bitcoin-hit-150k-by-june-30-2026": {
       "p": 0.0135,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-czechia-win-the-2026-fifa-world-cup": {
       "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "spread-rockets-5-5": {
       "p": 0.0005,
@@ -11117,8 +11117,8 @@
       "t": "2026-04-22 14:00"
     },
     "will-juan-branco-win-the-2027-french-presidential-election": {
-      "p": 0.0075,
-      "t": "2026-04-22 14:00"
+      "p": 0.0065,
+      "t": "2026-04-30 14:26"
     },
     "will-elche-cf-win-on-2026-04-22": {
       "p": 0.405,
@@ -11217,8 +11217,8 @@
       "t": "2026-04-22 14:00"
     },
     "nuggets-vs-timberwolves": {
-      "p": 0.515,
-      "t": "2026-04-25 13:48"
+      "p": 0.675,
+      "t": "2026-04-30 14:26"
     },
     "bitcoin-up-or-down-april-22-1am-et": {
       "p": 0.9995,
@@ -11321,8 +11321,8 @@
       "t": "2026-04-24 14:08"
     },
     "starmer-out-by-may-15-2026": {
-      "p": 0.165,
-      "t": "2026-04-29 14:23"
+      "p": 0.114,
+      "t": "2026-04-30 14:26"
     },
     "will-wti-crude-oil-wti-hit-high-95-in-april": {
       "p": 0.64,
@@ -11633,8 +11633,8 @@
       "t": "2026-04-26 14:06"
     },
     "will-the-all-india-trinamool-congress-aitc-win-the-most-seats-in-the-2026-west-b": {
-      "p": 0.5595,
-      "t": "2026-04-29 14:23"
+      "p": 0.5205,
+      "t": "2026-04-30 14:26"
     },
     "gwangju-mark-lajal-vs-yu-hsiou-hsu": {
       "p": 0.0005,
@@ -11669,8 +11669,8 @@
       "t": "2026-04-23 14:05"
     },
     "will-bitcoin-dip-to-70-000-in-april": {
-      "p": 0.0115,
-      "t": "2026-04-29 14:23"
+      "p": 0.0095,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-68-000-on-april-23": {
       "p": 0.9995,
@@ -11913,8 +11913,8 @@
       "t": "2026-04-23 14:05"
     },
     "will-the-us-confirm-that-aliens-exist-by-may-31": {
-      "p": 0.0295,
-      "t": "2026-04-29 14:23"
+      "p": 0.031,
+      "t": "2026-04-30 14:26"
     },
     "us-x-iran-diplomatic-meeting-by-april-26-2026": {
       "p": 0.0005,
@@ -11925,8 +11925,8 @@
       "t": "2026-04-24 14:08"
     },
     "will-tamilaga-vettri-kazhagam-tvk-win-the-most-seats-in-the-2026-tamil-nadu-legi": {
-      "p": 0.087,
-      "t": "2026-04-29 14:23"
+      "p": 0.083,
+      "t": "2026-04-30 14:26"
     },
     "indian-premier-league-mumbai-indians-vs-chennai-super-kings": {
       "p": 0.605,
@@ -11942,7 +11942,7 @@
     },
     "will-tony-thurmond-win-the-california-governor-election-in-2026": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-dip-to-25-000-in-april": {
       "p": 0.0005,
@@ -11986,7 +11986,7 @@
     },
     "will-eric-swalwell-win-the-california-governor-election-in-2026": {
       "p": 0.0015,
-      "t": "2026-04-23 14:05"
+      "t": "2026-04-30 14:26"
     },
     "will-eleni-kounalakis-win-the-california-governor-election-in-2026": {
       "p": 0.0015,
@@ -11997,8 +11997,8 @@
       "t": "2026-04-23 14:05"
     },
     "megaeth-market-cap-fdv-3b-one-day-after-launch": {
-      "p": 0.0695,
-      "t": "2026-04-29 14:23"
+      "p": 0.0865,
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-reach-88-000-april-20-26": {
       "p": 0.0005,
@@ -12041,8 +12041,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-the-us-confirm-that-aliens-exist-by-june-30": {
-      "p": 0.07,
-      "t": "2026-04-23 14:05"
+      "p": 0.075,
+      "t": "2026-04-30 14:26"
     },
     "will-colorado-rapids-sc-win-on-2026-04-22": {
       "p": 0.0005,
@@ -12053,8 +12053,8 @@
       "t": "2026-04-23 14:05"
     },
     "will-toni-atkins-win-the-california-governor-election-in-2026": {
-      "p": 0.0015,
-      "t": "2026-04-27 14:27"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-germany-send-warships-through-the-strait-of-hormuz-by-april-30-2026": {
       "p": 0.0085,
@@ -12093,8 +12093,8 @@
       "t": "2026-04-23 14:05"
     },
     "strait-of-hormuz-traffic-returns-to-normal-by-may-15": {
-      "p": 0.155,
-      "t": "2026-04-29 14:23"
+      "p": 0.075,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-hong-kong-be-26-c-on-april-23": {
       "p": 0.0005,
@@ -12105,8 +12105,8 @@
       "t": "2026-04-23 14:05"
     },
     "crude-oil-all-time-high-by-april-30": {
-      "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "p": 0.006,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-100-119-tweets-from-april-21-to-april-28-2026": {
       "p": 0.0005,
@@ -12193,8 +12193,8 @@
       "t": "2026-04-24 14:08"
     },
     "nba-playoffs-who-will-win-series-lakers-vs-rockets": {
-      "p": 0.907,
-      "t": "2026-04-29 14:23"
+      "p": 0.7155,
+      "t": "2026-04-30 14:26"
     },
     "gwangju-soon-woo-kwon-vs-hyeon-chung": {
       "p": 0.9995,
@@ -12253,12 +12253,12 @@
       "t": "2026-04-24 14:08"
     },
     "celtics-vs-76ers": {
-      "p": 0.735,
-      "t": "2026-04-26 14:06"
+      "p": 0.675,
+      "t": "2026-04-30 14:26"
     },
     "will-megaeth-launch-a-token-by-may-31-2026": {
-      "p": 0.9975,
-      "t": "2026-04-29 14:23"
+      "p": 0.9995,
+      "t": "2026-04-30 14:26"
     },
     "will-the-las-vegas-raiders-win-the-2027-nfl-league-championship": {
       "p": 0.01,
@@ -12337,12 +12337,12 @@
       "t": "2026-04-24 14:08"
     },
     "us-x-iran-diplomatic-meeting-by-may-15-2026": {
-      "p": 0.365,
-      "t": "2026-04-29 14:23"
+      "p": 0.255,
+      "t": "2026-04-30 14:26"
     },
     "megaeth-market-cap-fdv-1-5b-one-day-after-launch": {
-      "p": 0.585,
-      "t": "2026-04-29 14:23"
+      "p": 0.675,
+      "t": "2026-04-30 14:26"
     },
     "lol-jd-gaming-vs-invictus-gaming-bo3-lpl-group-ascend": {
       "p": 0.615,
@@ -12385,8 +12385,8 @@
       "t": "2026-04-26 14:06"
     },
     "will-bitcoin-reach-82-500-in-april": {
-      "p": 0.014,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-hong-kong-be-21-c-on-april-24": {
       "p": 0.0005,
@@ -12445,8 +12445,8 @@
       "t": "2026-04-24 14:08"
     },
     "will-the-bharatiya-janata-party-bjp-win-the-most-seats-in-the-2026-west-bengal-l": {
-      "p": 0.4695,
-      "t": "2026-04-29 14:23"
+      "p": 0.4875,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-78-000-on-april-24": {
       "p": 0.0005,
@@ -12513,8 +12513,8 @@
       "t": "2026-04-25 13:48"
     },
     "us-x-iran-diplomatic-meeting-by-may-5-2026": {
-      "p": 0.105,
-      "t": "2026-04-29 14:23"
+      "p": 0.085,
+      "t": "2026-04-30 14:26"
     },
     "deepseek-v4-released-by-april-26": {
       "p": 0.997,
@@ -12537,8 +12537,8 @@
       "t": "2026-04-24 14:08"
     },
     "bab-el-mandeb-strait-effectively-closed-by-may-31": {
-      "p": 0.195,
-      "t": "2026-04-26 14:06"
+      "p": 0.155,
+      "t": "2026-04-30 14:26"
     },
     "will-solana-dip-to-40-in-april": {
       "p": 0.003,
@@ -12673,8 +12673,8 @@
       "t": "2026-04-25 13:48"
     },
     "will-the-all-india-anna-dravida-munnetra-kazhagam-admk-win-the-most-seats-in-the": {
-      "p": 0.1705,
-      "t": "2026-04-27 14:27"
+      "p": 0.0765,
+      "t": "2026-04-30 14:26"
     },
     "will-the-ottawa-senators-win-the-2026-nhl-stanley-cup": {
       "p": 0.0045,
@@ -12705,8 +12705,8 @@
       "t": "2026-04-25 13:48"
     },
     "will-xrp-dip-to-1-00-in-april": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.002,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-82-000-on-april-25": {
       "p": 0.0015,
@@ -12849,8 +12849,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-the-next-us-x-iran-diplomatic-meeting-occur-after-may-10": {
-      "p": 0.775,
-      "t": "2026-04-29 14:23"
+      "p": 0.875,
+      "t": "2026-04-30 14:26"
     },
     "will-steve-witkoff-have-a-diplomatic-meeting-with-iran-by-april-30": {
       "p": 0.135,
@@ -13013,16 +13013,16 @@
       "t": "2026-04-25 13:48"
     },
     "kevin-warsh-confirmed-as-fed-chair-by-may-1": {
-      "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-shanghai-be-20-c-on-april-25": {
       "p": 0.0005,
       "t": "2026-04-25 13:48"
     },
     "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-june-30": {
-      "p": 0.0155,
-      "t": "2026-04-28 14:29"
+      "p": 0.0205,
+      "t": "2026-04-30 14:26"
     },
     "will-wolverhampton-wanderers-fc-win-on-2026-04-25": {
       "p": 0.205,
@@ -13085,8 +13085,8 @@
       "t": "2026-04-26 14:06"
     },
     "clavicular-pregnancy-in-2026": {
-      "p": 0.9075,
-      "t": "2026-04-29 14:23"
+      "p": 0.9855,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-74-000-on-april-26": {
       "p": 0.9985,
@@ -13193,8 +13193,8 @@
       "t": "2026-04-26 14:06"
     },
     "will-elon-musk-post-140-159-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.0035,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-ethereum-be-above-2-600-on-april-26": {
       "p": 0.0005,
@@ -13325,8 +13325,8 @@
       "t": "2026-04-26 14:06"
     },
     "will-dogecoin-reach-0-15-in-april": {
-      "p": 0.037,
-      "t": "2026-04-26 14:06"
+      "p": 0.003,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-460-479-tweets-from-april-24-to-may-1-2026": {
       "p": 0.0015,
@@ -13345,8 +13345,8 @@
       "t": "2026-04-26 14:06"
     },
     "will-elon-musk-post-160-179-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.043,
-      "t": "2026-04-29 14:23"
+      "p": 0.2815,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-ethereum-be-above-2-200-on-april-26": {
       "p": 0.994,
@@ -13526,7 +13526,7 @@
     },
     "will-elon-musk-post-380-399-tweets-from-april-24-to-may-1-2026": {
       "p": 0.0005,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-us-withdraw-from-nato-by-june-30": {
       "p": 0.0335,
@@ -13549,8 +13549,8 @@
       "t": "2026-04-26 14:06"
     },
     "will-elon-musk-post-80-99-tweets-from-april-28-to-may-5-2026": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.011,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-hong-kong-be-27-c-on-april-26": {
       "p": 0.002,
@@ -13561,8 +13561,8 @@
       "t": "2026-04-26 14:06"
     },
     "megaeth-market-cap-fdv-4b-one-day-after-launch": {
-      "p": 0.036,
-      "t": "2026-04-28 14:29"
+      "p": 0.0345,
+      "t": "2026-04-30 14:26"
     },
     "will-bitcoin-dip-to-68-000-april-20-26": {
       "p": 0.0005,
@@ -13637,8 +13637,8 @@
       "t": "2026-04-27 14:27"
     },
     "will-trump-talk-to-ursula-von-der-leyen-in-april": {
-      "p": 0.739,
-      "t": "2026-04-29 14:23"
+      "p": 0.997,
+      "t": "2026-04-30 14:26"
     },
     "will-ethereum-reach-2-600-april-20-26": {
       "p": 0.0005,
@@ -13785,8 +13785,8 @@
       "t": "2026-04-28 14:29"
     },
     "jerome-powell-out-as-fed-chair-by-may-14-2026": {
-      "p": 0.0475,
-      "t": "2026-04-29 14:23"
+      "p": 0.0405,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-165-189-tweets-from-april-25-to-april-27-2026": {
       "p": 0.0005,
@@ -13817,8 +13817,8 @@
       "t": "2026-04-27 14:27"
     },
     "will-inter-win-the-2025-26-serie-a-league": {
-      "p": 0.999,
-      "t": "2026-04-27 14:27"
+      "p": 0.9985,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-seoul-be-22-c-on-april-27": {
       "p": 0.0005,
@@ -14005,8 +14005,8 @@
       "t": "2026-04-28 14:29"
     },
     "us-x-iran-permanent-peace-deal-by-may-15-2026": {
-      "p": 0.065,
-      "t": "2026-04-29 14:23"
+      "p": 0.075,
+      "t": "2026-04-30 14:26"
     },
     "lol-invictus-gaming-vs-anyone-s-legend-bo3-lpl-group-ascend": {
       "p": 0.255,
@@ -14045,28 +14045,28 @@
       "t": "2026-04-28 14:29"
     },
     "over-40m-committed-to-the-printr-public-sale": {
-      "p": 0.365,
-      "t": "2026-04-29 14:23"
+      "p": 0.0395,
+      "t": "2026-04-30 14:26"
     },
     "lol-kt-rolster-vs-hanwha-life-esports-bo3-lck-rounds-1-2": {
       "p": 0.425,
       "t": "2026-04-29 14:23"
     },
     "will-anthropic-have-the-best-math-ai-model-at-the-end-of-april-2026": {
-      "p": 0.894,
-      "t": "2026-04-29 14:23"
+      "p": 0.966,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-60-79-tweets-from-april-28-to-may-5-2026": {
-      "p": 0.0005,
-      "t": "2026-04-28 14:29"
+      "p": 0.0045,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-shanghai-be-22-c-on-april-28": {
       "p": 0.9995,
       "t": "2026-04-28 14:29"
     },
     "over-60m-committed-to-the-printr-public-sale": {
-      "p": 0.215,
-      "t": "2026-04-29 14:23"
+      "p": 0.0235,
+      "t": "2026-04-30 14:26"
     },
     "will-donald-trump-post-100-119-truth-social-posts-from-april-21-to-april-28-2026": {
       "p": 0.0035,
@@ -14077,8 +14077,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-openai-have-the-best-math-ai-model-at-the-end-of-april-2026": {
-      "p": 0.186,
-      "t": "2026-04-28 14:29"
+      "p": 0.0395,
+      "t": "2026-04-30 14:26"
     },
     "indian-premier-league-punjab-kings-vs-rajasthan-royals": {
       "p": 0.565,
@@ -14089,8 +14089,8 @@
       "t": "2026-04-28 14:29"
     },
     "over-100m-committed-to-the-printr-public-sale": {
-      "p": 0.095,
-      "t": "2026-04-29 14:23"
+      "p": 0.0145,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-88-000-on-april-29": {
       "p": 0.0005,
@@ -14101,8 +14101,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-elon-musk-post-40-59-tweets-from-april-28-to-may-5-2026": {
-      "p": 0.0005,
-      "t": "2026-04-28 14:29"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-hong-kong-be-27-c-on-april-28": {
       "p": 0.0015,
@@ -14165,8 +14165,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-elon-musk-post-180-199-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.217,
-      "t": "2026-04-29 14:23"
+      "p": 0.4555,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-ethereum-be-above-2-500-on-april-28": {
       "p": 0.0015,
@@ -14193,8 +14193,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-the-dravida-munnetra-kazhagam-dmk-win-the-most-seats-in-the-2026-tamil-nadu": {
-      "p": 0.745,
-      "t": "2026-04-28 14:29"
+      "p": 0.855,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-86-000-on-april-28": {
       "p": 0.0005,
@@ -14213,16 +14213,16 @@
       "t": "2026-04-28 14:29"
     },
     "will-the-price-of-bitcoin-be-above-72-000-on-april-30": {
-      "p": 0.9735,
-      "t": "2026-04-28 14:29"
+      "p": 0.9955,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-86-000-on-april-29": {
       "p": 0.0005,
       "t": "2026-04-28 14:29"
     },
     "will-elon-musk-post-200-219-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.3,
-      "t": "2026-04-29 14:23"
+      "p": 0.215,
+      "t": "2026-04-30 14:26"
     },
     "will-gold-gc-hit-low-4-700-by-end-of-june": {
       "p": 0.9995,
@@ -14262,7 +14262,7 @@
     },
     "jimmy-kimmel-fired-resigns-by-may-31": {
       "p": 0.055,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-lando-norris-be-the-2026-f1-drivers-champion": {
       "p": 0.0295,
@@ -14285,8 +14285,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-the-price-of-bitcoin-be-above-72-000-on-may-1": {
-      "p": 0.952,
-      "t": "2026-04-28 14:29"
+      "p": 0.9685,
+      "t": "2026-04-30 14:26"
     },
     "will-taylor-fritz-win-the-2026-men-s-french-open": {
       "p": 0.0055,
@@ -14297,24 +14297,24 @@
       "t": "2026-04-28 14:29"
     },
     "over-20m-committed-to-the-printr-public-sale": {
-      "p": 0.66,
-      "t": "2026-04-29 14:23"
+      "p": 0.055,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-300-319-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.0115,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "xi-jinping-out-by-june-30": {
-      "p": 0.0245,
-      "t": "2026-04-29 14:23"
+      "p": 0.0305,
+      "t": "2026-04-30 14:26"
     },
     "will-the-dhs-shutdown-end-after-april-30-2026": {
-      "p": 0.912,
-      "t": "2026-04-28 14:29"
+      "p": 0.7205,
+      "t": "2026-04-30 14:26"
     },
     "over-30m-committed-to-the-printr-public-sale": {
-      "p": 0.45,
-      "t": "2026-04-29 14:23"
+      "p": 0.04,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-between-76-000-and-78-000-on-april-28": {
       "p": 0.745,
@@ -14325,8 +14325,8 @@
       "t": "2026-04-28 14:29"
     },
     "will-elon-musk-post-260-279-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.046,
-      "t": "2026-04-29 14:23"
+      "p": 0.0045,
+      "t": "2026-04-30 14:26"
     },
     "madrid-open-jiri-lehecka-vs-lorenzo-musetti": {
       "p": 0.405,
@@ -14361,8 +14361,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-valve-add-cache-to-the-map-pool-by-april-30-2026": {
-      "p": 0.01,
-      "t": "2026-04-29 14:23"
+      "p": 0.005,
+      "t": "2026-04-30 14:26"
     },
     "will-the-price-of-bitcoin-be-above-80-000-on-april-29": {
       "p": 0.0115,
@@ -14373,8 +14373,8 @@
       "t": "2026-04-29 14:23"
     },
     "over-8m-committed-to-the-printr-public-sale": {
-      "p": 0.8565,
-      "t": "2026-04-29 14:23"
+      "p": 0.155,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-360-379-tweets-from-april-24-to-may-1-2026": {
       "p": 0.0005,
@@ -14385,8 +14385,8 @@
       "t": "2026-04-29 14:23"
     },
     "over-10m-committed-to-the-printr-public-sale": {
-      "p": 0.79,
-      "t": "2026-04-29 14:23"
+      "p": 0.125,
+      "t": "2026-04-30 14:26"
     },
     "james-comey-arrested-by-may-15": {
       "p": 0.875,
@@ -14397,8 +14397,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-elon-musk-post-340-359-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "ufc-fight-night-carlos-prates-vs-jack-della-maddalena-welterweight-main-card": {
       "p": 0.525,
@@ -14421,8 +14421,8 @@
       "t": "2026-04-29 14:23"
     },
     "over-15m-committed-to-the-printr-public-sale": {
-      "p": 0.73,
-      "t": "2026-04-29 14:23"
+      "p": 0.085,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-115-139-tweets-from-april-27-to-april-29-2026": {
       "p": 0.0025,
@@ -14433,8 +14433,8 @@
       "t": "2026-04-29 14:23"
     },
     "over-6m-committed-to-the-printr-public-sale": {
-      "p": 0.925,
-      "t": "2026-04-29 14:23"
+      "p": 0.1925,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-90-114-tweets-from-april-27-to-april-29-2026": {
       "p": 0.013,
@@ -14457,8 +14457,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-elon-musk-post-220-239-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.185,
-      "t": "2026-04-29 14:23"
+      "p": 0.065,
+      "t": "2026-04-30 14:26"
     },
     "will-the-highest-temperature-in-seoul-be-17-c-on-april-29": {
       "p": 0.0035,
@@ -14481,8 +14481,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting": {
-      "p": 0.865,
-      "t": "2026-04-29 14:23"
+      "p": 0.875,
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-65-89-tweets-from-april-27-to-april-29-2026": {
       "p": 0.245,
@@ -14493,8 +14493,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-elon-musk-post-240-259-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.135,
-      "t": "2026-04-29 14:23"
+      "p": 0.014,
+      "t": "2026-04-30 14:26"
     },
     "will-lee-kwang-jae-win-the-2026-gangwon-province-gubernatorial-election": {
       "p": 0.0015,
@@ -14521,12 +14521,12 @@
       "t": "2026-04-29 14:23"
     },
     "over-3m-committed-to-the-printr-public-sale": {
-      "p": 0.987,
-      "t": "2026-04-29 14:23"
+      "p": 0.821,
+      "t": "2026-04-30 14:26"
     },
     "will-scream-7-be-the-top-grossing-movie-of-2026": {
       "p": 0.0025,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-elon-musk-post-480-499-tweets-from-may-1-to-may-8-2026": {
       "p": 0.0005,
@@ -14549,8 +14549,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-the-uae-leave-the-gulf-cooperation-council-by-april-30-2026": {
-      "p": 0.007,
-      "t": "2026-04-29 14:23"
+      "p": 0.005,
+      "t": "2026-04-30 14:26"
     },
     "will-luis-gilberto-murillo-win-the-1st-round-of-the-2026-colombian-presidential-": {
       "p": 0.0015,
@@ -14589,8 +14589,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-elon-musk-post-280-299-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.0225,
-      "t": "2026-04-29 14:23"
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
     },
     "ufc-fight-night-wes-schultz-vs-ben-johnston-middleweight-prelims": {
       "p": 0.445,
@@ -14601,8 +14601,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-elon-musk-post-320-339-tweets-from-april-24-to-may-1-2026": {
-      "p": 0.0055,
-      "t": "2026-04-29 14:23"
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
     },
     "will-shimizu-s-pulse-win-on-2026-04-29": {
       "p": 0.0005,
@@ -14617,8 +14617,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-the-fed-decrease-interest-rates-by-50-bps-after-the-july-2026-meeting": {
-      "p": 0.0225,
-      "t": "2026-04-29 14:23"
+      "p": 0.0215,
+      "t": "2026-04-30 14:26"
     },
     "will-unrwa-win-the-nobel-peace-prize-in-2026": {
       "p": 0.0405,
@@ -14641,8 +14641,8 @@
       "t": "2026-04-29 14:23"
     },
     "will-elon-musk-post-100-119-tweets-from-april-28-to-may-5-2026": {
-      "p": 0.0045,
-      "t": "2026-04-29 14:23"
+      "p": 0.0315,
+      "t": "2026-04-30 14:26"
     },
     "will-the-cincinnati-bengals-win-the-2027-nfl-league-championship": {
       "p": 0.0275,
@@ -14674,7 +14674,7 @@
     },
     "will-butch-ware-win-the-california-governor-election-in-2026": {
       "p": 0.0015,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-the-los-angeles-rams-win-the-2027-nfl-league-championship": {
       "p": 0.095,
@@ -14698,7 +14698,7 @@
     },
     "madrid-open-casper-ruud-vs-alexander-blockx": {
       "p": 0.725,
-      "t": "2026-04-29 14:23"
+      "t": "2026-04-30 14:26"
     },
     "will-powell-say-good-afternoon-during-april-press-conference": {
       "p": 0.9805,
@@ -14735,6 +14735,426 @@
     "will-nvidia-be-the-second-largest-company-in-the-world-by-market-cap-on-april-30": {
       "p": 0.0005,
       "t": "2026-04-29 14:23"
+    },
+    "san-francisco-giants-vs-philadelphia-phillies-o-u-7-5": {
+      "p": 0.625,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-thundertalk-gaming-vs-lgd-gaming-bo3-lpl-group-nirvana": {
+      "p": 0.455,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-80-000-on-april-30": {
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
+    },
+    "over-4m-committed-to-the-printr-public-sale": {
+      "p": 0.5585,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-70-000-on-april-30": {
+      "p": 0.9995,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-74-000-on-april-30": {
+      "p": 0.9345,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-dn-soopers-challengers-vs-kt-rolster-challengers-bo3-lck-challengers-league-": {
+      "p": 0.095,
+      "t": "2026-04-30 14:26"
+    },
+    "huzhou-yufei-ren-vs-polona-hercog": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-68-000-on-april-30": {
+      "p": 0.999,
+      "t": "2026-04-30 14:26"
+    },
+    "counter-strike-fut-esports-vs-astralis-bo3-blast-rivals-group-a": {
+      "p": 0.465,
+      "t": "2026-04-30 14:26"
+    },
+    "will-nottingham-forest-fc-win-on-2026-04-30": {
+      "p": 0.345,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-bnk-fearx-vs-dplus-kia-bo3-lck-rounds-1-2": {
+      "p": 0.135,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-0-19-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-sc-braga-win-on-2026-04-30": {
+      "p": 0.425,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-0-19-tweets-from-may-1-to-may-8-2026": {
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-78-000-on-april-30": {
+      "p": 0.0115,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-82-000-on-april-30": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31": {
+      "p": 0.715,
+      "t": "2026-04-30 14:26"
+    },
+    "gensyn-fdv-above-400m-one-day-after-launch": {
+      "p": 0.945,
+      "t": "2026-04-30 14:26"
+    },
+    "will-wti-crude-oil-wti-hit-high-110-in-may": {
+      "p": 0.895,
+      "t": "2026-04-30 14:26"
+    },
+    "game-handicap-dk-1-5-vs-bnk-fearx-1-5": {
+      "p": 0.66,
+      "t": "2026-04-30 14:26"
+    },
+    "will-wti-crude-oil-wti-hit-high-120-in-may": {
+      "p": 0.495,
+      "t": "2026-04-30 14:26"
+    },
+    "indian-premier-league-gujarat-titans-vs-royal-challengers-bengaluru": {
+      "p": 0.415,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-76-000-on-april-30": {
+      "p": 0.345,
+      "t": "2026-04-30 14:26"
+    },
+    "shymkent-2-sergey-fomin-vs-max-hans-rehberg": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-20-39-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-ultra-prime-vs-edward-gaming-bo3-lpl-group-nirvana": {
+      "p": 0.295,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-dn-soopers-challengers-vs-kt-rolster-challengers-game-1-winner": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-400-419-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "us-x-iran-diplomatic-meeting-by-june-30-2026": {
+      "p": 0.69,
+      "t": "2026-04-30 14:26"
+    },
+    "jiujiang-liam-broady-vs-alexis-galarneau": {
+      "p": 0.095,
+      "t": "2026-04-30 14:26"
+    },
+    "nottingham-forest-fc-vs-aston-villa-fc-o-u-2-5": {
+      "p": 0.47,
+      "t": "2026-04-30 14:26"
+    },
+    "houston-astros-vs-baltimore-orioles": {
+      "p": 0.485,
+      "t": "2026-04-30 14:26"
+    },
+    "gensyn-fdv-above-600m-one-day-after-launch": {
+      "p": 0.42,
+      "t": "2026-04-30 14:26"
+    },
+    "bitcoin-up-or-down-on-april-30": {
+      "p": 0.425,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-gen-g-global-academy-vs-dplus-kia-challengers-bo3-lck-challengers-league-rou": {
+      "p": 0.32,
+      "t": "2026-04-30 14:26"
+    },
+    "will-wti-crude-oil-wti-hit-high-140-in-may": {
+      "p": 0.1705,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-gen-g-global-academy-vs-dplus-kia-challengers-game-1-winner": {
+      "p": 0.9995,
+      "t": "2026-04-30 14:26"
+    },
+    "huzhou-xinxin-yao-vs-rada-zolotareva": {
+      "p": 0.25,
+      "t": "2026-04-30 14:26"
+    },
+    "san-francisco-giants-vs-philadelphia-phillies": {
+      "p": 0.435,
+      "t": "2026-04-30 14:26"
+    },
+    "will-wti-crude-oil-wti-hit-high-150-in-may": {
+      "p": 0.105,
+      "t": "2026-04-30 14:26"
+    },
+    "will-dogecoin-reach-0-20-in-april": {
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-120-139-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.087,
+      "t": "2026-04-30 14:26"
+    },
+    "will-alex-padilla-win-the-california-governor-election-in-2026": {
+      "p": 0.0025,
+      "t": "2026-04-30 14:26"
+    },
+    "counter-strike-vitality-vs-g2-bo3-blast-rivals-group-a": {
+      "p": 0.845,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-86-000-on-may-1": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting": {
+      "p": 0.0325,
+      "t": "2026-04-30 14:26"
+    },
+    "will-wti-crude-oil-wti-hit-high-130-in-may": {
+      "p": 0.325,
+      "t": "2026-04-30 14:26"
+    },
+    "shymkent-2-edas-butvilas-vs-gerard-campana-lee": {
+      "p": 0.9745,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-140-159-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.086,
+      "t": "2026-04-30 14:26"
+    },
+    "bitcoin-up-or-down-april-30-1am-et": {
+      "p": 0.9995,
+      "t": "2026-04-30 14:26"
+    },
+    "madrid-open-hailey-baptiste-vs-mirra-andreeva": {
+      "p": 0.325,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-highest-temperature-in-seoul-be-20-c-or-higher-on-april-30": {
+      "p": 0.036,
+      "t": "2026-04-30 14:26"
+    },
+    "gensyn-fdv-above-1b-one-day-after-launch": {
+      "p": 0.021,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-420-439-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "jiujiang-mark-lajal-vs-marat-sharipov": {
+      "p": 0.9995,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-gen-g-vs-kiwoom-drx-bo3-lck-rounds-1-2": {
+      "p": 0.945,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-84-000-on-april-30": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "mauthausen-roman-safiullin-vs-titouan-droguet": {
+      "p": 0.425,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-160-179-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.1415,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-fed-increase-interest-rates-by-50-bps-after-the-july-2026-meeting": {
+      "p": 0.0085,
+      "t": "2026-04-30 14:26"
+    },
+    "trump-out-as-president-by-may-31": {
+      "p": 0.016,
+      "t": "2026-04-30 14:26"
+    },
+    "spy-spy-up-or-down-on-april-30": {
+      "p": 0.38,
+      "t": "2026-04-30 14:26"
+    },
+    "will-rayo-vallecano-de-madrid-win-on-2026-04-30": {
+      "p": 0.455,
+      "t": "2026-04-30 14:26"
+    },
+    "will-manchester-city-fc-win-on-2026-05-04": {
+      "p": 0.665,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-dhs-shutdown-end-between-april-29-30-2026": {
+      "p": 0.1795,
+      "t": "2026-04-30 14:26"
+    },
+    "will-bitcoin-dip-to-74-000-april-27-may-3": {
+      "p": 0.495,
+      "t": "2026-04-30 14:26"
+    },
+    "st-louis-cardinals-vs-pittsburgh-pirates": {
+      "p": 0.345,
+      "t": "2026-04-30 14:26"
+    },
+    "jiujiang-ognjen-milic-vs-fajing-sun": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-between-76-000-and-78-000-on-april-30": {
+      "p": 0.345,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-fnatic-vs-solary-bo3-esports-world-cup-emea-qualifier-playoffs": {
+      "p": 0.635,
+      "t": "2026-04-30 14:26"
+    },
+    "will-wti-crude-oil-wti-hit-high-90-in-may": {
+      "p": 0.9905,
+      "t": "2026-04-30 14:26"
+    },
+    "will-crude-oil-cl-hit-high-140-by-end-of-june": {
+      "p": 0.295,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-440-459-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-crude-oil-cl-hit-high-130-by-end-of-june": {
+      "p": 0.435,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-380-399-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
+    },
+    "space-fdv-above-40m-one-day-after-launch": {
+      "p": 0.0125,
+      "t": "2026-04-30 14:26"
+    },
+    "fk-shakhtar-donetsk-vs-crystal-palace-fc-o-u-2-5": {
+      "p": 0.415,
+      "t": "2026-04-30 14:26"
+    },
+    "us-x-iran-diplomatic-meeting-by-may-31-2026": {
+      "p": 0.465,
+      "t": "2026-04-30 14:26"
+    },
+    "will-bitcoin-reach-82-000-april-27-may-3": {
+      "p": 0.02,
+      "t": "2026-04-30 14:26"
+    },
+    "will-iran-sabotage-undersea-internet-cables-by-april-30": {
+      "p": 0.001,
+      "t": "2026-04-30 14:26"
+    },
+    "gensyn-fdv-above-200m-one-day-after-launch": {
+      "p": 0.987,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-highest-temperature-in-seoul-be-19-c-on-april-30": {
+      "p": 0.965,
+      "t": "2026-04-30 14:26"
+    },
+    "james-comey-sentenced-to-prison-in-2026": {
+      "p": 0.105,
+      "t": "2026-04-30 14:26"
+    },
+    "wti-crude-oil-wti-up-or-down-on-april-30": {
+      "p": 0.615,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-nongshim-esports-academy-vs-hanjin-brion-challengers-bo3-lck-challengers-lea": {
+      "p": 0.63,
+      "t": "2026-04-30 14:26"
+    },
+    "gaza-flotilla-enters-israeli-waters-by-may-31": {
+      "p": 0.53,
+      "t": "2026-04-30 14:26"
+    },
+    "lol-nongshim-esports-academy-vs-hanjin-brion-challengers-game-1-winner": {
+      "p": 0.0005,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-highest-temperature-in-new-york-city-be-between-60-61-f-on-april-29": {
+      "p": 0.9995,
+      "t": "2026-04-30 14:26"
+    },
+    "s-p-500-spx-up-or-down-on-april-30": {
+      "p": 0.375,
+      "t": "2026-04-30 14:26"
+    },
+    "will-los-angeles-fc-win-on-2026-04-29": {
+      "p": 0.9995,
+      "t": "2026-04-30 14:26"
+    },
+    "gensyn-fdv-above-800m-one-day-after-launch": {
+      "p": 0.08,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-price-of-bitcoin-be-above-80-000-on-may-1": {
+      "p": 0.0165,
+      "t": "2026-04-30 14:26"
+    },
+    "will-macky-sall-be-the-next-secretary-general-of-the-united-nations": {
+      "p": 0.0415,
+      "t": "2026-04-30 14:26"
+    },
+    "will-club-atl-tico-de-madrid-win-on-2026-05-05": {
+      "p": 0.175,
+      "t": "2026-04-30 14:26"
+    },
+    "will-max-verstappen-be-the-2026-f1-drivers-champion": {
+      "p": 0.0345,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-highest-temperature-in-hong-kong-be-23-c-on-april-30": {
+      "p": 0.0015,
+      "t": "2026-04-30 14:26"
+    },
+    "jerome-powell-out-from-fed-board-by-may-30": {
+      "p": 0.115,
+      "t": "2026-04-30 14:26"
+    },
+    "rayo-vallecano-de-madrid-vs-rc-strasbourg-alsace-o-u-2-5": {
+      "p": 0.495,
+      "t": "2026-04-30 14:26"
+    },
+    "will-the-fed-decrease-interest-rates-by-25-bps-after-the-july-2026-meeting": {
+      "p": 0.075,
+      "t": "2026-04-30 14:26"
+    },
+    "will-sc-freiburg-win-on-2026-04-30": {
+      "p": 0.275,
+      "t": "2026-04-30 14:26"
+    },
+    "will-atl-tico-madrid-reach-the-uefa-champions-league-final": {
+      "p": 0.305,
+      "t": "2026-04-30 14:26"
+    },
+    "game-handicap-kt-c-1-5-vs-dn-soopers-challengers-1-5": {
+      "p": 0.5,
+      "t": "2026-04-30 14:26"
+    },
+    "will-elon-musk-post-260-279-tweets-from-april-28-to-may-5-2026": {
+      "p": 0.035,
+      "t": "2026-04-30 14:26"
+    },
+    "will-sweden-win-the-televote-for-eurovision-2026": {
+      "p": 0.0125,
+      "t": "2026-04-30 14:26"
     }
   }
 }
